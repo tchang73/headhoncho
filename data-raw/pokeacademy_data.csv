@@ -1,0 +1,600 @@
+Last_Name,First_Name,Student_Type,Hall,Room,Room_Type,Citizenship_DESC,DOB,Email
+Hardy,Rosalinda,Ent First Year,Togepi House,508,Quadruple,Domestic,6/15/1994,rhardy@pokéacademy.edu
+Pierce,Christa,Ent First Year,Squirtle House,209,Single,Domestic,8/10/2001,cpierce@pokéacademy.edu
+Patrick,Heriberto,Ent First Year,Ho-Oh House,306,Quadruple,Domestic,3/6/1993,hpatrick@pokéacademy.edu
+Mason,Stefan,Ent First Year,Umbreon House,212,Triple,Domestic,6/9/1994,smason@pokéacademy.edu
+Booth,Mike,Ent First Year,Gengar House,302,Triple,Domestic,10/30/2003,mbooth@pokéacademy.edu
+Mitchell,Janice,Ent First Year,Bayleef House,212,Single,Domestic,11/20/2006,jmitchell@pokéacademy.edu
+Boone,Quinten,Ent First Year,Moltres House,405,Single,Domestic,11/17/2004,qboone@pokéacademy.edu
+Ibarra,Lillie,Ent Transfer,Ditto House,103,Triple,International,3/23/2000,libarra@pokéacademy.edu
+Maxwell,Elyssa,Ent First Year,Gengar House,310,Single,Domestic,3/10/2004,emaxwell@pokéacademy.edu
+Silva,Elizabeth,Ent First Year,Ivysaur House,407,Triple,Domestic,4/20/2005,esilva@pokéacademy.edu
+Harris,Justin,Ent First Year,Caterpie House,411,Single,Domestic,11/22/1991,jharris@pokéacademy.edu
+Boyer,Mckenna,Ent First Year,Cubone House,313,Triple,Domestic,10/12/1999,mboyer@pokéacademy.edu
+Luna,Jordyn,Ent First Year,Ivysaur House,301,Quadruple,Domestic,2/18/1999,jluna@pokéacademy.edu
+Finley,Janelle,Ent First Year,Mudkip House,104,Triple,Domestic,2/16/1996,jfinley@pokéacademy.edu
+Lowe,Iliana,Ent First Year,Sylveon House,202,Quadruple,Domestic,4/24/1996,ilowe@pokéacademy.edu
+Graves,Gabriel,Ent Transfer,Piplup House,101,Single,Domestic,2/24/2004,ggraves@pokéacademy.edu
+Hutchinson,Dashawn,Ent First Year,Bayleef House,415,Single,Domestic,5/3/1998,dhutchinson@pokéacademy.edu
+Gallegos,Ernest,Ent Transfer,Torterra House,212,Triple,International,11/3/2006,egallegos@pokéacademy.edu
+Burnett,Laurel,Ent First Year,Pidgey House,510,Quadruple,Domestic,12/25/1995,lburnett@pokéacademy.edu
+Hendricks,Jesse,Ent Transfer,Leafeon House,109,Triple,Domestic,6/25/1991,jhendricks@pokéacademy.edu
+Krause,Daisy,Ent Transfer,Zapdos House,308,Single,International,6/25/1992,dkrause@pokéacademy.edu
+Gates,Kiersten,Ent Transfer,Pidgey House,413,Quadruple,International,11/23/1993,kgates@pokéacademy.edu
+Carroll,Samir,Ent First Year,Oddish House,211,Single,Domestic,3/30/1996,scarroll@pokéacademy.edu
+Day,Jaiden,Ent First Year,Cubone House,509,Double,Domestic,5/19/1991,jday@pokéacademy.edu
+Woodard,Braeden,Ent First Year,Raichu House,407,Single,Domestic,8/6/1994,bwoodard@pokéacademy.edu
+Barrera,Kristin,Ent First Year,Zapdos House,311,Triple,International,8/14/1997,kbarrera@pokéacademy.edu
+Mitchell,Destany,Ent First Year,Piplup House,504,Quadruple,Domestic,7/25/1994,dmitchell@pokéacademy.edu
+Pollard,Candice,Ent First Year,Togepi House,508,Triple,International,6/27/2001,cpollard@pokéacademy.edu
+Buchanan,Luis,Ent First Year,Umbreon House,308,Triple,Domestic,9/26/2006,lbuchanan@pokéacademy.edu
+Mccormick,Kathy,Ent First Year,Ho-Oh House,211,Single,Domestic,2/11/1991,kmccormick@pokéacademy.edu
+Luna,Fabian,Ent First Year,Caterpie House,502,Single,International,9/11/1991,fluna@pokéacademy.edu
+Chen,Marcelo,Ent First Year,Ivysaur House,106,Double,Domestic,9/1/2006,mchen@pokéacademy.edu
+Swanson,Abigale,Ent First Year,Luxio House,508,Quadruple,Domestic,11/29/1995,aswanson@pokéacademy.edu
+Cain,Daisy,Ent First Year,Bayleef House,103,Quadruple,Domestic,9/24/2005,dcain@pokéacademy.edu
+Avery,Armando,Ent First Year,Pidgey House,414,Triple,Domestic,12/16/1997,aavery@pokéacademy.edu
+Marshall,Erik,Ent First Year,Caterpie House,306,Quadruple,International,3/11/2003,emarshall@pokéacademy.edu
+Lester,Hayden,Ent Transfer,Wailord House,304,Single,International,12/21/2005,hlester@pokéacademy.edu
+Rodgers,Raven,Ent First Year,Torterra House,313,Quadruple,Domestic,3/24/2006,rrodgers@pokéacademy.edu
+Morrison,Keven,Ent First Year,Luxio House,407,Single,Domestic,3/18/1992,kmorrison@pokéacademy.edu
+Mueller,Amaya,Ent First Year,Ho-Oh House,211,Triple,Domestic,10/29/2004,amueller@pokéacademy.edu
+Mahoney,Kinsey,Ent First Year,Mew House,508,Single,Domestic,9/14/2001,kmahoney@pokéacademy.edu
+Joseph,Diana,Ent First Year,Articuno House,412,Quadruple,Domestic,6/5/1996,djoseph@pokéacademy.edu
+Woodward,Gloria,Ent First Year,Bulbasaur House,501,Single,Domestic,5/13/2000,gwoodward@pokéacademy.edu
+Crane,Isiah,Ent First Year,Mew House,209,Triple,Domestic,11/7/1997,icrane@pokéacademy.edu
+Liu,Brianna,Ent First Year,Wailord House,310,Single,International,9/26/1994,bliu@pokéacademy.edu
+Torres,Reagan,Ent First Year,Bulbasaur House,412,Quadruple,Domestic,12/7/1999,rtorres@pokéacademy.edu
+Foley,Christian,Ent First Year,Togepi House,102,Single,Domestic,12/31/2002,cfoley@pokéacademy.edu
+Gibson,Lesly,Ent First Year,Togepi House,405,Quadruple,Domestic,6/23/2006,lgibson@pokéacademy.edu
+Cochran,Luis,Ent First Year,Clefairy House,303,Double,International,1/7/2004,lcochran@pokéacademy.edu
+Gilmore,Liam,Ent Transfer,Umbreon House,404,Double,Domestic,1/25/1991,lgilmore@pokéacademy.edu
+Landry,Darin,Ent First Year,Pikachu Hall,303,Single,Domestic,6/23/1991,dlandry@pokéacademy.edu
+Salazar,Hudson,Ent First Year,Zapdos House,411,Triple,International,5/31/1996,hsalazar@pokéacademy.edu
+Dorsey,Carlo,Ent First Year,Piplup House,214,Single,Domestic,6/27/1992,cdorsey@pokéacademy.edu
+Singleton,Treyvon,Ent First Year,Articuno House,211,Single,Domestic,1/31/2002,tsingleton@pokéacademy.edu
+Wilson,Giselle,Ent First Year,Rowlet House,108,Triple,International,1/30/1993,gwilson@pokéacademy.edu
+Davies,Lily,Ent First Year,Mew House,204,Quadruple,Domestic,11/20/1998,ldavies@pokéacademy.edu
+Garza,Tiffany,Ent Transfer,Zapdos House,302,Single,International,4/7/2005,tgarza@pokéacademy.edu
+Clay,Martin,Ent First Year,Sylveon House,312,Quadruple,Domestic,6/10/1993,mclay@pokéacademy.edu
+Banks,Quinton,Ent First Year,Leafeon House,215,Single,Domestic,4/20/1995,qbanks@pokéacademy.edu
+Nolan,Perla,Ent First Year,Ivysaur House,504,Double,Domestic,8/9/1996,pnolan@pokéacademy.edu
+Todd,Sierra,Ent First Year,Wailord House,109,Quadruple,Domestic,2/27/1990,stodd@pokéacademy.edu
+Becker,Reanna,Ent First Year,Charmander House,302,Single,Domestic,9/15/1990,rbecker@pokéacademy.edu
+Acevedo,Byron,Ent First Year,Articuno House,204,Double,Domestic,11/28/1991,bacevedo@pokéacademy.edu
+Lindsey,Devon,Ent Transfer,Wailord House,408,Single,Domestic,11/29/2006,dlindsey@pokéacademy.edu
+Forbes,Aliya,Ent Transfer,Raichu House,502,Double,Domestic,7/24/1996,aforbes@pokéacademy.edu
+Williams,Kameron,Ent First Year,Piplup House,208,Triple,International,8/2/1996,kwilliams@pokéacademy.edu
+Hudson,Maranda,Ent Transfer,Regice House,108,Single,Domestic,9/22/1999,mhudson@pokéacademy.edu
+Richards,Kaylie,Ent First Year,Rowlet House,308,Single,Domestic,7/27/1991,krichards@pokéacademy.edu
+Arias,Darrius,Ent First Year,Clefairy House,302,Single,International,10/26/1999,darias@pokéacademy.edu
+Kidd,Edwin,Ent First Year,Bulbasaur House,203,Quadruple,Domestic,6/8/2002,ekidd@pokéacademy.edu
+Koch,Kelsie,Ent First Year,Caterpie House,207,Double,Domestic,1/27/1993,kkoch@pokéacademy.edu
+Drake,Graciela,Ent First Year,Ditto House,106,Single,Domestic,5/29/1998,gdrake@pokéacademy.edu
+Mccarthy,Sheridan,Ent First Year,Torterra House,405,Quadruple,Domestic,11/21/1992,smccarthy@pokéacademy.edu
+Cabrera,Douglas,Ent First Year,Regice House,416,Single,Domestic,6/17/1990,dcabrera@pokéacademy.edu
+Myers,Ramon,Ent First Year,Caterpie House,109,Quadruple,Domestic,8/12/2001,rmyers@pokéacademy.edu
+Clarke,Domenic,Ent First Year,Ho-Oh House,507,Quadruple,Domestic,6/1/1999,dclarke@pokéacademy.edu
+Hampton,Skylar,Ent First Year,Spoink House,107,Quadruple,International,12/5/2006,shampton@pokéacademy.edu
+Brady,Holden,Ent First Year,Zapdos House,201,Quadruple,International,11/13/2005,hbrady@pokéacademy.edu
+Mccarthy,Amos,Ent First Year,Farfetch'd House,308,Triple,Domestic,1/23/1994,amccarthy@pokéacademy.edu
+Carr,Abdullah,Ent First Year,Mudkip House,402,Triple,Domestic,8/10/2006,acarr@pokéacademy.edu
+Nolan,Meagan,Ent Transfer,Bulbasaur House,506,Quadruple,Domestic,7/8/2004,mnolan@pokéacademy.edu
+Keith,Simone,Ent First Year,Muk House,206,Single,Domestic,2/18/1997,skeith@pokéacademy.edu
+Andrews,Dallas,Ent First Year,Sylveon House,109,Quadruple,Domestic,6/22/2005,dandrews@pokéacademy.edu
+Webster,Hailee,Ent First Year,Mudkip House,107,Double,International,6/5/2005,hwebster@pokéacademy.edu
+Short,Jude,Ent First Year,Leafeon House,505,Triple,Domestic,8/28/1995,jshort@pokéacademy.edu
+Byrd,Adriana,Ent First Year,Farfetch'd House,505,Single,International,7/23/1991,abyrd@pokéacademy.edu
+Sims,Anya,Ent First Year,Torterra House,406,Triple,Domestic,2/24/1995,asims@pokéacademy.edu
+Howe,Aryanna,Ent Transfer,Umbreon House,107,Double,International,5/15/2006,ahowe@pokéacademy.edu
+Hurley,Anita,Ent First Year,Bayleef House,103,Double,Domestic,6/15/1998,ahurley@pokéacademy.edu
+Jordan,Craig,Ent First Year,Sylveon House,110,Single,Domestic,5/13/1994,cjordan@pokéacademy.edu
+Irwin,Carson,Ent First Year,Moltres House,412,Triple,Domestic,12/20/2004,cirwin@pokéacademy.edu
+Mcintyre,Craig,Ent First Year,Bayleef House,206,Single,Domestic,10/29/2001,cmcintyre@pokéacademy.edu
+Bennett,Sophia,Ent Transfer,Sylveon House,404,Triple,Domestic,3/4/2001,sbennett@pokéacademy.edu
+Sanchez,Sam,Ent First Year,Mew House,309,Triple,Domestic,9/1/2005,ssanchez@pokéacademy.edu
+Peck,Aubree,Ent First Year,Cyndaquil House,405,Single,Domestic,11/30/2005,apeck@pokéacademy.edu
+Ellis,Jayde,Ent Transfer,Oddish House,507,Double,International,4/14/2003,jellis@pokéacademy.edu
+Holt,Ariel,Ent First Year,Farfetch'd House,310,Quadruple,International,11/11/1992,aholt@pokéacademy.edu
+Adkins,Marcel,Ent First Year,Moltres House,306,Double,Domestic,8/26/2000,madkins@pokéacademy.edu
+Parker,Nathanial,Ent First Year,Bulbasaur House,501,Single,Domestic,10/29/1997,nparker@pokéacademy.edu
+Marsh,Warren,Ent First Year,Ditto House,411,Double,International,4/26/1991,wmarsh@pokéacademy.edu
+Avery,Calvin,Ent First Year,Leafeon House,415,Single,Domestic,1/2/1994,cavery@pokéacademy.edu
+Schneider,Precious,Ent First Year,Gengar House,410,Quadruple,Domestic,7/29/1994,pschneider@pokéacademy.edu
+Mack,Donte,Ent First Year,Piplup House,103,Triple,International,12/25/1992,dmack@pokéacademy.edu
+Moses,Kaela,Ent First Year,Bayleef House,216,Quadruple,Domestic,1/2/2000,kmoses@pokéacademy.edu
+Frost,Shayne,Ent First Year,Cyndaquil House,502,Single,Domestic,9/12/2006,sfrost@pokéacademy.edu
+Hunt,Tyshawn,Ent First Year,Pidgey House,503,Double,Domestic,3/24/2004,thunt@pokéacademy.edu
+Roth,Joshua,Ent First Year,Spoink House,409,Triple,International,11/27/2003,jroth@pokéacademy.edu
+Oconnell,Sky,Ent First Year,Gengar House,208,Triple,Domestic,11/2/1994,soconnell@pokéacademy.edu
+Galloway,Ariana,Ent First Year,Umbreon House,308,Triple,Domestic,10/20/2000,agalloway@pokéacademy.edu
+Herring,Trace,Ent First Year,Sylveon House,212,Single,International,11/6/1994,therring@pokéacademy.edu
+Larsen,Alanna,Ent First Year,Muk House,405,Triple,Domestic,12/8/1995,alarsen@pokéacademy.edu
+Rangel,Uriel,Ent First Year,Bayleef House,307,Triple,International,5/4/2001,urangel@pokéacademy.edu
+Bishop,Hailie,Ent First Year,Umbreon House,502,Triple,International,12/26/1998,hbishop@pokéacademy.edu
+Randall,Lena,Ent First Year,Vulpix House,509,Single,Domestic,7/5/2000,lrandall@pokéacademy.edu
+Porter,Bret,Ent First Year,Wailord House,402,Quadruple,Domestic,6/24/1992,bporter@pokéacademy.edu
+Dodson,Stuart,Ent Transfer,Clefairy House,212,Quadruple,International,3/19/2006,sdodson@pokéacademy.edu
+Zhang,Natasha,Ent First Year,Ditto House,312,Single,Domestic,2/7/2003,nzhang@pokéacademy.edu
+Avila,Hillary,Ent First Year,Oddish House,409,Single,Domestic,6/14/2000,havila@pokéacademy.edu
+Proctor,Albert,Ent Transfer,Regice House,409,Triple,Domestic,7/14/1996,aproctor@pokéacademy.edu
+Maddox,Joan,Ent First Year,Bulbasaur House,509,Triple,International,12/15/2002,jmaddox@pokéacademy.edu
+Stark,Melinda,Ent First Year,Ditto House,211,Single,Domestic,7/13/2004,mstark@pokéacademy.edu
+Rocha,Bret,Ent First Year,Regice House,102,Triple,Domestic,1/2/1999,brocha@pokéacademy.edu
+Haney,Alayna,Ent Transfer,Ho-Oh House,309,Double,Domestic,1/7/2003,ahaney@pokéacademy.edu
+Gamble,Giovanny,Ent Transfer,Vulpix House,404,Quadruple,Domestic,8/25/1993,ggamble@pokéacademy.edu
+Montgomery,Laila,Ent Transfer,Ditto House,305,Quadruple,Domestic,12/14/1992,lmontgomery@pokéacademy.edu
+Villarreal,Dallas,Ent First Year,Mudkip House,306,Quadruple,International,2/2/1999,dvillarreal@pokéacademy.edu
+Shepherd,Emanuel,Ent First Year,Pikachu Hall,101,Single,Domestic,9/9/1997,eshepherd@pokéacademy.edu
+Wolfe,Kristin,Ent First Year,Umbreon House,110,Quadruple,Domestic,9/15/1997,kwolfe@pokéacademy.edu
+Franklin,Giovanna,Ent First Year,Squirtle House,412,Quadruple,International,12/27/1996,gfranklin@pokéacademy.edu
+Krueger,Travon,Ent Transfer,Umbreon House,216,Double,Domestic,9/9/2000,tkrueger@pokéacademy.edu
+Trevino,Alexis,Ent First Year,Pikachu Hall,205,Quadruple,International,12/24/1999,atrevino@pokéacademy.edu
+Walker,Isaac,Ent First Year,Moltres House,103,Quadruple,International,4/4/2001,iwalker@pokéacademy.edu
+Case,Joana,Ent First Year,Muk House,215,Triple,International,6/21/1990,jcase@pokéacademy.edu
+Hurley,Izaiah,Ent Transfer,Cubone House,210,Triple,Domestic,12/27/1993,ihurley@pokéacademy.edu
+Dawson,Joselyn,Ent First Year,Gengar House,312,Triple,Domestic,10/13/1990,jdawson@pokéacademy.edu
+Hernandez,Chase,Ent First Year,Moltres House,408,Quadruple,Domestic,12/21/2003,chernandez@pokéacademy.edu
+Becker,Jaden,Ent First Year,Muk House,309,Single,Domestic,7/7/2000,jbecker@pokéacademy.edu
+Stephens,Rudy,Ent First Year,Gengar House,501,Single,International,5/3/2002,rstephens@pokéacademy.edu
+Wyatt,Raul,Ent First Year,Vulpix House,403,Triple,Domestic,6/5/1992,rwyatt@pokéacademy.edu
+Finley,Eva,Ent Transfer,Cyndaquil House,507,Double,Domestic,1/25/2000,efinley@pokéacademy.edu
+Cowan,Jaqueline,Ent First Year,Lickitung House,305,Quadruple,Domestic,9/18/2002,jcowan@pokéacademy.edu
+Macias,Madisen,Ent First Year,Umbreon House,404,Single,Domestic,8/25/2001,mmacias@pokéacademy.edu
+Bradley,Mikel,Ent First Year,Vulpix House,415,Quadruple,Domestic,4/28/2004,mbradley@pokéacademy.edu
+Schaefer,Rebekah,Ent First Year,Farfetch'd House,508,Double,International,7/1/2005,rschaefer@pokéacademy.edu
+Cobb,Brendan,Ent First Year,Mew House,107,Single,Domestic,6/27/2006,bcobb@pokéacademy.edu
+Montoya,Estevan,Ent First Year,Mudkip House,412,Double,International,4/30/2003,emontoya@pokéacademy.edu
+Massey,Kavon,Ent First Year,Bulbasaur House,303,Double,Domestic,6/29/2001,kmassey@pokéacademy.edu
+Berg,Rafael,Ent First Year,Umbreon House,212,Quadruple,Domestic,3/9/1992,rberg@pokéacademy.edu
+Lang,Santos,Ent Transfer,Regice House,215,Quadruple,International,6/16/1992,slang@pokéacademy.edu
+Morrison,Brian,Ent First Year,Articuno House,510,Triple,International,3/30/2003,bmorrison@pokéacademy.edu
+Matthews,Brian,Ent First Year,Spoink House,213,Quadruple,Domestic,1/19/2006,bmatthews@pokéacademy.edu
+Baxter,Kareem,Ent First Year,Lickitung House,405,Quadruple,Domestic,8/19/2002,kbaxter@pokéacademy.edu
+Hale,Nichole,Ent First Year,Muk House,308,Quadruple,International,1/13/2004,nhale@pokéacademy.edu
+Christian,Annette,Ent First Year,Bayleef House,312,Triple,Domestic,12/8/1994,achristian@pokéacademy.edu
+Sampson,Danielle,Ent First Year,Torterra House,305,Single,Domestic,12/21/2006,dsampson@pokéacademy.edu
+Finley,Juliana,Ent First Year,Lickitung House,105,Triple,Domestic,1/31/1992,jfinley@pokéacademy.edu
+Benitez,Shirley,Ent First Year,Cubone House,205,Single,International,9/6/1997,sbenitez@pokéacademy.edu
+Davis,Gordon,Ent First Year,Charmander House,502,Triple,International,9/27/2001,gdavis@pokéacademy.edu
+Reese,Faith,Ent First Year,Raichu House,509,Triple,Domestic,11/26/1995,freese@pokéacademy.edu
+Cochran,Jared,Ent First Year,Umbreon House,102,Quadruple,International,12/12/2004,jcochran@pokéacademy.edu
+Hughes,Ingrid,Ent First Year,Squirtle House,414,Double,Domestic,4/18/1995,ihughes@pokéacademy.edu
+Fischer,Juliet,Ent Transfer,Mew House,209,Double,Domestic,2/1/2001,jfischer@pokéacademy.edu
+Stout,Travis,Ent First Year,Bayleef House,502,Double,Domestic,8/1/1991,tstout@pokéacademy.edu
+Brooks,Quintin,Ent Transfer,Ivysaur House,502,Quadruple,International,2/27/2006,qbrooks@pokéacademy.edu
+Lozano,Nathen,Ent First Year,Wailord House,412,Quadruple,International,12/5/2002,nlozano@pokéacademy.edu
+Waters,Edgar,Ent First Year,Sylveon House,213,Double,International,12/19/2000,ewaters@pokéacademy.edu
+Bright,Silas,Ent First Year,Regice House,208,Quadruple,Domestic,7/3/2002,sbright@pokéacademy.edu
+Alexander,Tariq,Ent First Year,Torterra House,407,Single,Domestic,8/17/2003,talexander@pokéacademy.edu
+Kelley,Audrey,Ent Transfer,Gengar House,507,Single,Domestic,9/5/2006,akelley@pokéacademy.edu
+Callahan,Lydia,Ent First Year,Farfetch'd House,403,Single,Domestic,2/3/2006,lcallahan@pokéacademy.edu
+Hutchinson,Maria,Ent Transfer,Sylveon House,305,Single,International,9/6/2001,mhutchinson@pokéacademy.edu
+Mays,Kiara,Ent First Year,Torterra House,508,Quadruple,International,1/30/2000,kmays@pokéacademy.edu
+Odonnell,Melvin,Ent First Year,Rowlet House,403,Double,Domestic,11/1/2000,modonnell@pokéacademy.edu
+House,Gloria,Ent First Year,Charmander House,206,Single,Domestic,2/14/1999,ghouse@pokéacademy.edu
+Franklin,Devyn,Ent First Year,Clefairy House,412,Single,Domestic,2/17/2006,dfranklin@pokéacademy.edu
+Frederick,Tyreek,Ent First Year,Ditto House,416,Triple,Domestic,2/18/2000,tfrederick@pokéacademy.edu
+Reed,Emmanuel,Ent First Year,Cyndaquil House,214,Single,International,8/2/1992,ereed@pokéacademy.edu
+Hammond,Elsa,Ent First Year,Oddish House,204,Double,International,11/22/1999,ehammond@pokéacademy.edu
+Bradshaw,Demetrius,Ent First Year,Luxio House,506,Triple,International,6/21/1994,dbradshaw@pokéacademy.edu
+Crosby,Rogelio,Ent Transfer,Vulpix House,504,Quadruple,Domestic,7/3/2000,rcrosby@pokéacademy.edu
+Singleton,Yazmin,Ent First Year,Spoink House,312,Quadruple,Domestic,6/15/2006,ysingleton@pokéacademy.edu
+Benitez,Damian,Ent Transfer,Pikachu Hall,106,Double,Domestic,7/1/1991,dbenitez@pokéacademy.edu
+Haynes,Isaias,Ent First Year,Charmander House,107,Single,Domestic,3/25/2002,ihaynes@pokéacademy.edu
+Callahan,Amina,Ent First Year,Articuno House,303,Double,International,1/11/2002,acallahan@pokéacademy.edu
+Bowen,Isiah,Ent First Year,Togepi House,107,Single,Domestic,4/18/1991,ibowen@pokéacademy.edu
+Tanner,Alyssa,Ent First Year,Caterpie House,102,Triple,International,9/29/2001,atanner@pokéacademy.edu
+Jarvis,Dylon,Ent First Year,Lickitung House,201,Quadruple,International,12/21/1993,djarvis@pokéacademy.edu
+Stephenson,Fiona,Ent First Year,Articuno House,402,Double,Domestic,3/26/2006,fstephenson@pokéacademy.edu
+Welch,Ariel,Ent Transfer,Sylveon House,213,Triple,International,3/20/1995,awelch@pokéacademy.edu
+Manning,Trenton,Ent Transfer,Torterra House,307,Double,Domestic,5/30/1998,tmanning@pokéacademy.edu
+Curry,Brayden,Ent Transfer,Mew House,206,Quadruple,Domestic,12/23/1998,bcurry@pokéacademy.edu
+Cline,Shannon,Ent Transfer,Bayleef House,511,Quadruple,Domestic,12/19/2002,scline@pokéacademy.edu
+Frye,Hadley,Ent First Year,Raichu House,209,Quadruple,International,12/31/1995,hfrye@pokéacademy.edu
+Best,Carlton,Ent First Year,Luxio House,417,Triple,Domestic,6/27/1995,cbest@pokéacademy.edu
+Mooney,Remington,Ent First Year,Charmander House,302,Double,International,4/28/1994,rmooney@pokéacademy.edu
+Summers,Bo,Ent Transfer,Ho-Oh House,306,Quadruple,International,11/16/1999,bsummers@pokéacademy.edu
+Richardson,Darius,Ent Transfer,Mew House,214,Single,Domestic,8/9/1994,drichardson@pokéacademy.edu
+Suarez,Robin,Ent First Year,Farfetch'd House,402,Single,International,8/12/2002,rsuarez@pokéacademy.edu
+Salas,Katia,Ent First Year,Piplup House,403,Double,Domestic,6/27/2001,ksalas@pokéacademy.edu
+Stevenson,Tommy,Ent First Year,Sylveon House,212,Triple,Domestic,3/2/2002,tstevenson@pokéacademy.edu
+Aguilar,Ariel,Ent First Year,Rowlet House,309,Double,Domestic,3/28/1994,aaguilar@pokéacademy.edu
+Chan,Jaylin,Ent First Year,Mudkip House,214,Double,Domestic,9/7/2002,jchan@pokéacademy.edu
+Boone,Nia,Ent First Year,Charmander House,106,Triple,Domestic,2/18/2005,nboone@pokéacademy.edu
+Padilla,Mohammad,Ent First Year,Umbreon House,403,Triple,Domestic,7/22/1998,mpadilla@pokéacademy.edu
+Heath,Kiley,Ent First Year,Bulbasaur House,305,Triple,Domestic,12/8/2002,kheath@pokéacademy.edu
+Nelson,Lonnie,Ent Transfer,Wailord House,311,Triple,Domestic,8/21/1990,lnelson@pokéacademy.edu
+Hudson,Cedric,Ent First Year,Pidgey House,511,Quadruple,Domestic,8/19/2005,chudson@pokéacademy.edu
+Arnold,Melinda,Ent First Year,Lickitung House,416,Quadruple,International,1/2/2004,marnold@pokéacademy.edu
+Daniels,Dominique,Ent First Year,Ditto House,202,Single,Domestic,2/25/2004,ddaniels@pokéacademy.edu
+Esparza,Sincere,Ent First Year,Spoink House,308,Double,Domestic,5/22/1997,sesparza@pokéacademy.edu
+Suarez,Elsa,Ent First Year,Pikachu Hall,503,Single,Domestic,1/12/1992,esuarez@pokéacademy.edu
+Blackburn,Tyrell,Ent First Year,Caterpie House,109,Single,Domestic,4/22/2001,tblackburn@pokéacademy.edu
+Owens,Celina,Ent First Year,Zapdos House,408,Quadruple,Domestic,10/18/1990,cowens@pokéacademy.edu
+Patel,Devante,Ent First Year,Clefairy House,306,Triple,Domestic,11/22/1990,dpatel@pokéacademy.edu
+Harrington,Jennifer,Ent First Year,Ivysaur House,213,Double,International,7/25/1994,jharrington@pokéacademy.edu
+Chandler,Kenya,Ent First Year,Wailord House,208,Single,Domestic,6/14/1993,kchandler@pokéacademy.edu
+Krause,Latrell,Ent First Year,Oddish House,416,Quadruple,Domestic,4/28/1991,lkrause@pokéacademy.edu
+Gamble,Hayden,Ent First Year,Lickitung House,501,Single,Domestic,4/28/1999,hgamble@pokéacademy.edu
+Hines,Shakira,Ent First Year,Togepi House,511,Triple,Domestic,7/17/1996,shines@pokéacademy.edu
+Gilbert,Eric,Ent Transfer,Regice House,205,Double,Domestic,2/5/2001,egilbert@pokéacademy.edu
+Fowler,Jack,Ent First Year,Torterra House,204,Double,Domestic,12/31/2006,jfowler@pokéacademy.edu
+Stark,Dalton,Ent First Year,Ivysaur House,110,Double,Domestic,6/26/2005,dstark@pokéacademy.edu
+Greer,Jacoby,Ent First Year,Luxio House,509,Quadruple,International,5/27/2003,jgreer@pokéacademy.edu
+Proctor,Cristobal,Ent First Year,Lickitung House,103,Quadruple,Domestic,7/2/2006,cproctor@pokéacademy.edu
+Hess,Alina,Ent First Year,Wailord House,209,Triple,Domestic,2/20/1996,ahess@pokéacademy.edu
+Lozano,Alysa,Ent First Year,Leafeon House,101,Double,International,8/18/2006,alozano@pokéacademy.edu
+Lucero,Nikolas,Ent Transfer,Bayleef House,403,Quadruple,Domestic,12/30/1992,nlucero@pokéacademy.edu
+Liu,Alessandro,Ent First Year,Umbreon House,305,Single,International,9/14/1995,aliu@pokéacademy.edu
+Espinoza,Katarina,Ent First Year,Bulbasaur House,216,Single,International,3/15/1990,kespinoza@pokéacademy.edu
+Phillips,Abril,Ent Transfer,Sylveon House,302,Double,Domestic,1/1/1992,aphillips@pokéacademy.edu
+Campos,Kyra,Ent Transfer,Togepi House,413,Quadruple,Domestic,10/3/1998,kcampos@pokéacademy.edu
+Hinton,Georgia,Ent First Year,Farfetch'd House,110,Quadruple,Domestic,10/27/1993,ghinton@pokéacademy.edu
+Durham,Heidi,Ent First Year,Sylveon House,107,Double,International,12/13/2006,hdurham@pokéacademy.edu
+Hickman,Dante,Ent Transfer,Pikachu Hall,102,Double,Domestic,8/3/1994,dhickman@pokéacademy.edu
+Avery,Desiree,Ent First Year,Clefairy House,407,Triple,Domestic,2/16/1996,davery@pokéacademy.edu
+Chaney,Rasheed,Ent First Year,Zapdos House,306,Triple,Domestic,10/29/2003,rchaney@pokéacademy.edu
+Lamb,Nestor,Ent First Year,Articuno House,312,Quadruple,Domestic,6/7/1996,nlamb@pokéacademy.edu
+Jarvis,Tevin,Ent First Year,Clefairy House,203,Double,Domestic,10/17/2004,tjarvis@pokéacademy.edu
+Duffy,Braedon,Ent First Year,Spoink House,209,Double,Domestic,12/2/2003,bduffy@pokéacademy.edu
+Scott,Ulises,Ent First Year,Pidgey House,301,Triple,Domestic,4/16/1996,uscott@pokéacademy.edu
+Whitney,Perry,Ent First Year,Bayleef House,110,Double,Domestic,6/7/2002,pwhitney@pokéacademy.edu
+Ware,Blaine,Ent First Year,Torterra House,310,Double,International,11/23/2006,bware@pokéacademy.edu
+Willis,Muhammad,Ent First Year,Rowlet House,408,Triple,International,6/5/2002,mwillis@pokéacademy.edu
+Campos,Jennifer,Ent Transfer,Gengar House,105,Double,International,3/19/1995,jcampos@pokéacademy.edu
+Lawson,Lawrence,Ent Transfer,Zapdos House,410,Quadruple,Domestic,3/30/1993,llawson@pokéacademy.edu
+Li,Donnie,Ent Transfer,Pidgey House,206,Single,Domestic,6/29/1997,dli@pokéacademy.edu
+Gamble,Kolton,Ent First Year,Wailord House,504,Double,Domestic,12/31/2003,kgamble@pokéacademy.edu
+Chambers,Elise,Ent First Year,Luxio House,107,Double,Domestic,2/26/1999,echambers@pokéacademy.edu
+Paul,Destin,Ent First Year,Lickitung House,502,Double,International,12/10/1995,dpaul@pokéacademy.edu
+Knapp,Nico,Ent First Year,Squirtle House,305,Single,International,5/28/1996,nknapp@pokéacademy.edu
+Sandoval,Stephon,Ent First Year,Rowlet House,207,Triple,Domestic,8/12/1998,ssandoval@pokéacademy.edu
+Mahoney,Johnny,Ent First Year,Bulbasaur House,201,Triple,Domestic,8/21/2004,jmahoney@pokéacademy.edu
+Maxwell,Micaela,Ent First Year,Bulbasaur House,214,Double,Domestic,3/28/1990,mmaxwell@pokéacademy.edu
+Bryan,Steven,Ent First Year,Charmander House,306,Single,Domestic,10/6/1999,sbryan@pokéacademy.edu
+Rangel,Reid,Ent First Year,Ho-Oh House,304,Triple,Domestic,4/15/2002,rrangel@pokéacademy.edu
+Zuniga,Alex,Ent Transfer,Gengar House,402,Quadruple,Domestic,12/2/1991,azuniga@pokéacademy.edu
+Cervantes,Heidi,Ent First Year,Gengar House,309,Double,Domestic,10/6/2003,hcervantes@pokéacademy.edu
+Lester,Christopher,Ent First Year,Caterpie House,301,Triple,Domestic,6/24/1994,clester@pokéacademy.edu
+Pollard,Sebastian,Ent First Year,Togepi House,216,Double,Domestic,8/14/2002,spollard@pokéacademy.edu
+Proctor,Vernon,Ent First Year,Bayleef House,307,Quadruple,Domestic,1/10/1990,vproctor@pokéacademy.edu
+Wright,Martina,Ent First Year,Ho-Oh House,207,Quadruple,International,2/17/2005,mwright@pokéacademy.edu
+Davidson,Kiana,Ent First Year,Regice House,207,Single,International,7/24/1991,kdavidson@pokéacademy.edu
+Savage,Edward,Ent Transfer,Rowlet House,202,Quadruple,Domestic,8/13/1991,esavage@pokéacademy.edu
+Stout,Abbie,Ent First Year,Sylveon House,408,Triple,Domestic,4/6/2000,astout@pokéacademy.edu
+Sellers,Willie,Ent First Year,Pikachu Hall,204,Quadruple,Domestic,7/21/1999,wsellers@pokéacademy.edu
+Ford,Alan,Ent Transfer,Zapdos House,203,Quadruple,Domestic,4/6/2002,aford@pokéacademy.edu
+Pope,Zechariah,Ent First Year,Cyndaquil House,510,Double,Domestic,1/1/2005,zpope@pokéacademy.edu
+Black,Alessandro,Ent First Year,Zapdos House,412,Triple,Domestic,1/24/2002,ablack@pokéacademy.edu
+Vasquez,Demarco,Ent First Year,Charmander House,505,Double,Domestic,9/1/1997,dvasquez@pokéacademy.edu
+Mccormick,Camila,Ent First Year,Cyndaquil House,506,Double,Domestic,5/18/1992,cmccormick@pokéacademy.edu
+Carney,Wyatt,Ent First Year,Oddish House,303,Single,Domestic,7/26/1999,wcarney@pokéacademy.edu
+Vasquez,Alonso,Ent First Year,Raichu House,417,Triple,Domestic,7/29/1996,avasquez@pokéacademy.edu
+Graham,Mariano,Ent Transfer,Bayleef House,214,Double,Domestic,5/23/2006,mgraham@pokéacademy.edu
+Avila,Donavan,Ent First Year,Caterpie House,204,Double,Domestic,8/6/2004,davila@pokéacademy.edu
+Carlson,Marvin,Ent First Year,Pikachu Hall,410,Single,Domestic,10/3/2005,mcarlson@pokéacademy.edu
+Preston,Vicente,Ent Transfer,Articuno House,308,Double,Domestic,1/31/1996,vpreston@pokéacademy.edu
+Riley,Chanel,Ent First Year,Cubone House,406,Triple,Domestic,12/25/1992,criley@pokéacademy.edu
+Mercado,Simeon,Ent First Year,Pidgey House,406,Quadruple,Domestic,4/5/2003,smercado@pokéacademy.edu
+Young,Michelle,Ent First Year,Leafeon House,502,Triple,Domestic,9/7/1996,myoung@pokéacademy.edu
+Andrade,Rickey,Ent First Year,Umbreon House,313,Single,Domestic,11/21/1990,randrade@pokéacademy.edu
+Knox,Samantha,Ent Transfer,Mudkip House,307,Triple,International,3/7/2006,sknox@pokéacademy.edu
+Davies,Jessie,Ent Transfer,Cubone House,109,Triple,International,5/23/2001,jdavies@pokéacademy.edu
+Mckenzie,Lesly,Ent First Year,Togepi House,310,Quadruple,Domestic,10/20/2005,lmckenzie@pokéacademy.edu
+Gomez,Anthony,Ent First Year,Wailord House,205,Single,Domestic,2/4/1998,agomez@pokéacademy.edu
+Watkins,Dontae,Ent First Year,Bayleef House,109,Double,International,4/21/1991,dwatkins@pokéacademy.edu
+Duffy,Fidel,Ent First Year,Umbreon House,206,Triple,Domestic,7/23/2004,fduffy@pokéacademy.edu
+Rivers,Melvin,Ent First Year,Articuno House,105,Triple,Domestic,2/26/2005,mrivers@pokéacademy.edu
+Turner,Jackeline,Ent First Year,Umbreon House,417,Double,Domestic,4/24/1996,jturner@pokéacademy.edu
+Woodard,Trevon,Ent First Year,Cyndaquil House,107,Single,Domestic,5/18/1996,twoodard@pokéacademy.edu
+Brooks,Lilly,Ent Transfer,Gengar House,406,Double,Domestic,7/27/2006,lbrooks@pokéacademy.edu
+Conway,Gianni,Ent First Year,Articuno House,301,Triple,Domestic,9/24/2003,gconway@pokéacademy.edu
+Horton,Jacey,Ent Transfer,Ivysaur House,210,Single,International,3/9/1998,jhorton@pokéacademy.edu
+Houston,Triston,Ent First Year,Umbreon House,202,Double,Domestic,1/1/1996,thouston@pokéacademy.edu
+Gray,Dale,Ent Transfer,Articuno House,302,Triple,Domestic,9/20/1995,dgray@pokéacademy.edu
+Tate,Theresa,Ent First Year,Ho-Oh House,406,Double,Domestic,7/20/2001,ttate@pokéacademy.edu
+Stephenson,Aimee,Ent First Year,Moltres House,301,Quadruple,International,4/5/1992,astephenson@pokéacademy.edu
+Douglas,Brooks,Ent First Year,Mudkip House,408,Double,Domestic,4/8/2001,bdouglas@pokéacademy.edu
+Long,Kaia,Ent Transfer,Sylveon House,109,Single,Domestic,1/17/2003,klong@pokéacademy.edu
+Ibarra,Isabelle,Ent Transfer,Gengar House,502,Triple,Domestic,7/12/2001,iibarra@pokéacademy.edu
+Cabrera,Osvaldo,Ent First Year,Gengar House,415,Triple,International,9/17/2002,ocabrera@pokéacademy.edu
+Nielsen,Cordell,Ent Transfer,Ivysaur House,310,Quadruple,International,6/16/2003,cnielsen@pokéacademy.edu
+Maldonado,Darian,Ent Transfer,Sylveon House,106,Double,International,7/22/1999,dmaldonado@pokéacademy.edu
+Estes,Raphael,Ent Transfer,Ho-Oh House,301,Single,Domestic,7/26/1993,restes@pokéacademy.edu
+Horton,Ronald,Ent Transfer,Articuno House,307,Double,Domestic,1/18/1996,rhorton@pokéacademy.edu
+Perry,Melinda,Ent First Year,Bayleef House,104,Triple,Domestic,4/3/2002,mperry@pokéacademy.edu
+Webb,Phoenix,Ent First Year,Lickitung House,105,Single,Domestic,4/17/1999,pwebb@pokéacademy.edu
+Harper,Jaden,Ent First Year,Mudkip House,501,Single,Domestic,6/1/1993,jharper@pokéacademy.edu
+Love,Tristen,Ent First Year,Piplup House,201,Single,Domestic,1/6/2001,tlove@pokéacademy.edu
+Mcintosh,Melody,Ent First Year,Cubone House,110,Double,Domestic,3/22/2006,mmcintosh@pokéacademy.edu
+Wall,Gordon,Ent First Year,Mew House,107,Triple,Domestic,10/24/1991,gwall@pokéacademy.edu
+George,Alec,Ent First Year,Piplup House,416,Single,Domestic,12/17/1991,ageorge@pokéacademy.edu
+Duarte,Jefferson,Ent Transfer,Charmander House,508,Triple,International,9/1/2000,jduarte@pokéacademy.edu
+Davila,Berenice,Ent First Year,Regice House,409,Triple,Domestic,11/23/1993,bdavila@pokéacademy.edu
+Hayes,Kaitlynn,Ent First Year,Sylveon House,201,Double,International,5/15/1997,khayes@pokéacademy.edu
+Best,Branson,Ent First Year,Bulbasaur House,302,Triple,Domestic,12/9/2000,bbest@pokéacademy.edu
+Stein,Madelyn,Ent First Year,Gengar House,308,Double,Domestic,7/17/1997,mstein@pokéacademy.edu
+Johns,Janiya,Ent First Year,Cyndaquil House,214,Triple,International,5/26/1997,jjohns@pokéacademy.edu
+Lindsey,Amya,Ent First Year,Squirtle House,410,Double,Domestic,1/5/1993,alindsey@pokéacademy.edu
+Ross,Aubree,Ent First Year,Clefairy House,302,Single,Domestic,1/9/1994,aross@pokéacademy.edu
+Weaver,Claire,Ent First Year,Spoink House,103,Triple,International,11/3/1999,cweaver@pokéacademy.edu
+Rhodes,Kaylynn,Ent Transfer,Vulpix House,201,Single,Domestic,8/25/2002,krhodes@pokéacademy.edu
+Bradford,Barry,Ent First Year,Charmander House,205,Triple,International,8/17/1992,bbradford@pokéacademy.edu
+Hobbs,Spencer,Ent First Year,Mew House,408,Double,Domestic,1/2/2001,shobbs@pokéacademy.edu
+Bentley,Addison,Ent First Year,Moltres House,508,Single,Domestic,8/5/1992,abentley@pokéacademy.edu
+Donovan,Anissa,Ent First Year,Ivysaur House,101,Double,International,4/29/2002,adonovan@pokéacademy.edu
+Beasley,Celina,Ent First Year,Luxio House,110,Quadruple,Domestic,10/19/2002,cbeasley@pokéacademy.edu
+Ibarra,Jamel,Ent First Year,Vulpix House,402,Single,International,4/26/1997,jibarra@pokéacademy.edu
+Schneider,Meagan,Ent First Year,Cubone House,402,Quadruple,International,8/2/2002,mschneider@pokéacademy.edu
+Roberts,Estrella,Ent First Year,Togepi House,407,Double,Domestic,7/24/1994,eroberts@pokéacademy.edu
+Matthews,Esmeralda,Ent First Year,Rowlet House,102,Triple,Domestic,5/10/1993,ematthews@pokéacademy.edu
+George,Carlo,Ent First Year,Piplup House,104,Quadruple,Domestic,7/15/2005,cgeorge@pokéacademy.edu
+Adkins,Rylie,Ent First Year,Sylveon House,507,Double,Domestic,3/8/2003,radkins@pokéacademy.edu
+Cruz,Ellen,Ent First Year,Articuno House,404,Quadruple,Domestic,11/17/1997,ecruz@pokéacademy.edu
+Cunningham,Kasandra,Ent First Year,Squirtle House,109,Triple,Domestic,4/30/2005,kcunningham@pokéacademy.edu
+Mcbride,Amani,Ent First Year,Umbreon House,312,Single,Domestic,7/8/1998,amcbride@pokéacademy.edu
+Smith,Aldo,Ent First Year,Bayleef House,312,Triple,Domestic,12/24/1994,asmith@pokéacademy.edu
+Cole,Peyton,Ent First Year,Spoink House,403,Quadruple,Domestic,5/9/1993,pcole@pokéacademy.edu
+Henson,Caden,Ent First Year,Cyndaquil House,201,Double,Domestic,2/4/2002,chenson@pokéacademy.edu
+Stark,Rasheed,Ent Transfer,Umbreon House,209,Double,Domestic,10/25/1994,rstark@pokéacademy.edu
+Norman,Helen,Ent First Year,Bayleef House,104,Single,Domestic,8/6/1998,hnorman@pokéacademy.edu
+Monroe,Haylie,Ent First Year,Cubone House,308,Double,Domestic,1/12/1992,hmonroe@pokéacademy.edu
+Randolph,Summer,Ent First Year,Lickitung House,202,Double,International,6/15/2006,srandolph@pokéacademy.edu
+Stephenson,Deja,Ent First Year,Spoink House,107,Quadruple,International,8/4/2004,dstephenson@pokéacademy.edu
+Mcclain,Jaren,Ent First Year,Squirtle House,202,Quadruple,International,10/25/1997,jmcclain@pokéacademy.edu
+Horne,Lori,Ent Transfer,Farfetch'd House,208,Quadruple,Domestic,8/29/2003,lhorne@pokéacademy.edu
+Bell,Lesley,Ent First Year,Togepi House,208,Single,International,6/6/2006,lbell@pokéacademy.edu
+Walters,Jace,Ent First Year,Ditto House,210,Single,Domestic,10/29/2005,jwalters@pokéacademy.edu
+Benitez,Leslie,Ent First Year,Wailord House,301,Triple,Domestic,9/15/2003,lbenitez@pokéacademy.edu
+Atkins,London,Ent First Year,Vulpix House,306,Double,Domestic,6/26/1996,latkins@pokéacademy.edu
+Hickman,Cecilia,Ent Transfer,Ho-Oh House,308,Single,Domestic,9/3/1999,chickman@pokéacademy.edu
+Espinoza,Giovanni,Ent First Year,Clefairy House,416,Quadruple,Domestic,9/5/2002,gespinoza@pokéacademy.edu
+Snyder,Kale,Ent First Year,Mudkip House,303,Double,Domestic,4/29/1999,ksnyder@pokéacademy.edu
+Mclaughlin,Carlton,Ent Transfer,Lickitung House,106,Double,Domestic,5/3/2001,cmclaughlin@pokéacademy.edu
+Robles,Mia,Ent First Year,Leafeon House,209,Quadruple,Domestic,6/5/1997,mrobles@pokéacademy.edu
+Reed,Colten,Ent First Year,Piplup House,408,Single,Domestic,2/3/2001,creed@pokéacademy.edu
+Sanford,Sonny,Ent First Year,Vulpix House,211,Single,Domestic,2/17/1998,ssanford@pokéacademy.edu
+Charles,Zoe,Ent Transfer,Togepi House,213,Quadruple,International,7/9/2003,zcharles@pokéacademy.edu
+Ortega,Toni,Ent Transfer,Gengar House,414,Double,Domestic,2/25/2000,tortega@pokéacademy.edu
+Gay,Pablo,Ent Transfer,Pidgey House,305,Single,Domestic,4/29/1992,pgay@pokéacademy.edu
+Alvarado,Ellis,Ent First Year,Pikachu Hall,415,Double,International,3/7/2005,ealvarado@pokéacademy.edu
+Fleming,Reid,Ent First Year,Articuno House,407,Double,Domestic,2/22/2002,rfleming@pokéacademy.edu
+Stevens,Gerardo,Ent First Year,Ho-Oh House,312,Quadruple,Domestic,2/4/2004,gstevens@pokéacademy.edu
+Andrade,Lea,Ent First Year,Muk House,204,Triple,Domestic,10/25/1997,landrade@pokéacademy.edu
+Gates,Aryanna,Ent First Year,Muk House,313,Double,Domestic,10/15/1991,agates@pokéacademy.edu
+Malone,Ashly,Ent First Year,Regice House,304,Quadruple,Domestic,4/24/1997,amalone@pokéacademy.edu
+Pittman,Bethany,Ent First Year,Lickitung House,305,Triple,Domestic,4/4/2001,bpittman@pokéacademy.edu
+Bowman,Brianne,Ent First Year,Regice House,212,Triple,Domestic,1/18/2001,bbowman@pokéacademy.edu
+Mccarty,Markus,Ent First Year,Moltres House,415,Quadruple,International,6/14/1993,mmccarty@pokéacademy.edu
+Rich,Josef,Ent First Year,Moltres House,411,Double,International,3/9/2003,jrich@pokéacademy.edu
+Kidd,Jessie,Ent First Year,Vulpix House,203,Triple,Domestic,6/17/2000,jkidd@pokéacademy.edu
+Mcfarland,Tyreek,Ent Transfer,Cyndaquil House,411,Double,Domestic,5/8/2006,tmcfarland@pokéacademy.edu
+Allen,Lexi,Ent Transfer,Luxio House,110,Quadruple,Domestic,5/25/1998,lallen@pokéacademy.edu
+Blanchard,Jenna,Ent First Year,Raichu House,509,Single,Domestic,6/18/2000,jblanchard@pokéacademy.edu
+Chang,Jacquelyn,Ent First Year,Mew House,201,Double,Domestic,6/7/2001,jchang@pokéacademy.edu
+Dunn,Chelsea,Ent Transfer,Rowlet House,306,Triple,Domestic,4/16/1991,cdunn@pokéacademy.edu
+Tapia,Joy,Ent First Year,Ditto House,216,Single,Domestic,3/28/1991,jtapia@pokéacademy.edu
+Nunez,Aniyah,Ent First Year,Raichu House,510,Double,Domestic,11/23/2003,anunez@pokéacademy.edu
+French,Elian,Ent First Year,Pidgey House,213,Double,Domestic,3/15/2005,efrench@pokéacademy.edu
+Morrison,Orlando,Ent Transfer,Luxio House,405,Quadruple,Domestic,4/13/1994,omorrison@pokéacademy.edu
+Walton,Ty,Ent First Year,Wailord House,405,Single,Domestic,1/11/1990,twalton@pokéacademy.edu
+Lee,Jessica,Ent First Year,Cubone House,414,Triple,Domestic,6/9/1990,jlee@pokéacademy.edu
+Myers,Kiersten,Ent First Year,Zapdos House,215,Quadruple,Domestic,5/2/1998,kmyers@pokéacademy.edu
+Norris,Marco,Ent First Year,Raichu House,504,Single,Domestic,4/1/1996,mnorris@pokéacademy.edu
+Munoz,Kellie,Ent First Year,Wailord House,106,Triple,Domestic,2/2/2001,kmunoz@pokéacademy.edu
+Maldonado,Oscar,Ent First Year,Caterpie House,413,Single,Domestic,7/3/1994,omaldonado@pokéacademy.edu
+Mckay,Lila,Ent Transfer,Mew House,106,Quadruple,Domestic,11/24/2000,lmckay@pokéacademy.edu
+Mcintosh,Solomon,Ent First Year,Cyndaquil House,304,Double,Domestic,9/6/1994,smcintosh@pokéacademy.edu
+Humphrey,Miriam,Ent First Year,Squirtle House,501,Triple,Domestic,10/3/2004,mhumphrey@pokéacademy.edu
+Harrell,Maranda,Ent First Year,Rowlet House,504,Single,Domestic,2/9/2001,mharrell@pokéacademy.edu
+Perez,Keira,Ent First Year,Moltres House,301,Triple,Domestic,7/19/2004,kperez@pokéacademy.edu
+Oliver,Jabari,Ent First Year,Raichu House,310,Single,International,4/3/1993,joliver@pokéacademy.edu
+Strong,Renee,Ent Transfer,Piplup House,110,Double,Domestic,7/19/2002,rstrong@pokéacademy.edu
+Simmons,Cristian,Ent First Year,Cyndaquil House,507,Double,Domestic,4/1/1991,csimmons@pokéacademy.edu
+Meza,Yvette,Ent First Year,Umbreon House,415,Double,Domestic,4/27/2001,ymeza@pokéacademy.edu
+Montgomery,Jocelyn,Ent Transfer,Ho-Oh House,201,Triple,Domestic,4/11/2005,jmontgomery@pokéacademy.edu
+Cross,Dewayne,Ent First Year,Bulbasaur House,308,Quadruple,International,12/5/2005,dcross@pokéacademy.edu
+Herrera,Anna,Ent Transfer,Pidgey House,505,Double,Domestic,9/23/1997,aherrera@pokéacademy.edu
+Stokes,Valentina,Ent First Year,Charmander House,309,Double,Domestic,5/22/1990,vstokes@pokéacademy.edu
+Baker,Gaige,Ent Transfer,Caterpie House,417,Triple,Domestic,7/1/1996,gbaker@pokéacademy.edu
+Jordan,Aryanna,Ent First Year,Vulpix House,403,Triple,Domestic,4/26/2003,ajordan@pokéacademy.edu
+Ryan,Liana,Ent First Year,Lickitung House,503,Triple,Domestic,9/26/1997,lryan@pokéacademy.edu
+Keith,Brady,Ent First Year,Raichu House,415,Single,Domestic,5/23/2004,bkeith@pokéacademy.edu
+Moody,Joel,Ent First Year,Articuno House,407,Triple,International,8/6/1992,jmoody@pokéacademy.edu
+Walsh,Mercedes,Ent Transfer,Piplup House,109,Triple,Domestic,9/24/1996,mwalsh@pokéacademy.edu
+Conley,Darion,Ent First Year,Cubone House,107,Single,Domestic,11/26/2001,dconley@pokéacademy.edu
+Woodward,Rafael,Ent Transfer,Bulbasaur House,313,Triple,International,6/18/2003,rwoodward@pokéacademy.edu
+Bean,Ellis,Ent First Year,Muk House,101,Quadruple,Domestic,6/1/2005,ebean@pokéacademy.edu
+Moss,Roy,Ent First Year,Spoink House,311,Quadruple,Domestic,12/15/1999,rmoss@pokéacademy.edu
+Ross,Noel,Ent First Year,Pidgey House,203,Quadruple,International,4/3/1997,nross@pokéacademy.edu
+Schmidt,Sophie,Ent First Year,Spoink House,209,Quadruple,International,9/1/1997,sschmidt@pokéacademy.edu
+Whitney,Joshua,Ent Transfer,Moltres House,209,Quadruple,Domestic,5/26/1996,jwhitney@pokéacademy.edu
+Stanley,Dominik,Ent Transfer,Vulpix House,505,Quadruple,International,12/28/1996,dstanley@pokéacademy.edu
+Luna,Sonia,Ent First Year,Cubone House,508,Quadruple,International,6/16/1995,sluna@pokéacademy.edu
+Zavala,Harmony,Ent First Year,Pidgey House,306,Quadruple,International,2/5/2005,hzavala@pokéacademy.edu
+Holt,Devon,Ent First Year,Ho-Oh House,402,Double,Domestic,1/9/1993,dholt@pokéacademy.edu
+Salazar,Chasity,Ent First Year,Charmander House,109,Triple,Domestic,1/25/2001,csalazar@pokéacademy.edu
+Cline,Perry,Ent First Year,Ditto House,201,Quadruple,Domestic,12/13/1999,pcline@pokéacademy.edu
+Gonzales,Deborah,Ent First Year,Sylveon House,214,Triple,Domestic,6/28/2000,dgonzales@pokéacademy.edu
+Hernandez,Isai,Ent First Year,Rowlet House,102,Double,Domestic,11/8/1993,ihernandez@pokéacademy.edu
+Riddle,Xavier,Ent First Year,Ivysaur House,403,Single,International,5/22/2003,xriddle@pokéacademy.edu
+Callahan,Darren,Ent First Year,Pikachu Hall,103,Triple,Domestic,3/25/2003,dcallahan@pokéacademy.edu
+Irwin,Abbigail,Ent First Year,Moltres House,306,Single,Domestic,11/1/2004,airwin@pokéacademy.edu
+Dunn,Dasia,Ent First Year,Mudkip House,507,Quadruple,Domestic,12/1/2003,ddunn@pokéacademy.edu
+Davies,Katlyn,Ent Transfer,Lickitung House,215,Single,Domestic,6/3/1998,kdavies@pokéacademy.edu
+Cochran,Kasandra,Ent First Year,Charmander House,104,Triple,International,2/10/2003,kcochran@pokéacademy.edu
+Duran,Juliet,Ent Transfer,Piplup House,104,Quadruple,International,3/10/1995,jduran@pokéacademy.edu
+Wolf,Tomas,Ent First Year,Charmander House,302,Double,Domestic,5/1/2003,twolf@pokéacademy.edu
+Strong,Raheem,Ent First Year,Ditto House,302,Double,Domestic,7/17/1990,rstrong@pokéacademy.edu
+Juarez,Kiersten,Ent First Year,Torterra House,203,Quadruple,International,3/25/1994,kjuarez@pokéacademy.edu
+Dodson,Jessie,Ent First Year,Gengar House,107,Quadruple,Domestic,6/23/1990,jdodson@pokéacademy.edu
+Munoz,Bernard,Ent First Year,Pikachu Hall,106,Single,Domestic,11/6/1993,bmunoz@pokéacademy.edu
+Norton,Efrain,Ent First Year,Regice House,307,Quadruple,Domestic,6/2/1996,enorton@pokéacademy.edu
+Hughes,Dion,Ent First Year,Mudkip House,509,Double,Domestic,1/18/1999,dhughes@pokéacademy.edu
+Carrillo,Abigayle,Ent First Year,Ho-Oh House,207,Quadruple,Domestic,12/7/1994,acarrillo@pokéacademy.edu
+Vasquez,Marlee,Ent First Year,Lickitung House,508,Double,Domestic,10/16/1993,mvasquez@pokéacademy.edu
+Zuniga,Ayanna,Ent Transfer,Zapdos House,408,Quadruple,Domestic,8/27/1997,azuniga@pokéacademy.edu
+Ayala,Precious,Ent First Year,Muk House,403,Double,Domestic,8/30/1992,payala@pokéacademy.edu
+Stone,Destin,Ent First Year,Sylveon House,109,Triple,Domestic,6/26/2005,dstone@pokéacademy.edu
+Lam,Estrella,Ent First Year,Farfetch'd House,110,Single,International,1/6/1999,elam@pokéacademy.edu
+Goodman,Maribel,Ent First Year,Raichu House,212,Quadruple,International,11/20/1993,mgoodman@pokéacademy.edu
+Lozano,Jaycee,Ent First Year,Vulpix House,311,Double,Domestic,4/8/1999,jlozano@pokéacademy.edu
+Joyce,Davion,Ent Transfer,Sylveon House,206,Double,International,3/10/1990,djoyce@pokéacademy.edu
+Hebert,Kennedy,Ent Transfer,Charmander House,108,Quadruple,International,1/31/2003,khebert@pokéacademy.edu
+Gaines,Kaia,Ent Transfer,Torterra House,215,Triple,Domestic,8/28/1992,kgaines@pokéacademy.edu
+Wyatt,Zaria,Ent Transfer,Ho-Oh House,502,Triple,Domestic,9/28/1995,zwyatt@pokéacademy.edu
+Fleming,Antonio,Ent First Year,Ho-Oh House,504,Triple,Domestic,9/26/1998,afleming@pokéacademy.edu
+Barr,Ian,Ent First Year,Ditto House,215,Single,International,6/22/2003,ibarr@pokéacademy.edu
+Mccarty,Jazmin,Ent First Year,Umbreon House,208,Single,Domestic,2/20/2003,jmccarty@pokéacademy.edu
+Ruiz,Caitlynn,Ent First Year,Vulpix House,201,Double,Domestic,12/3/1996,cruiz@pokéacademy.edu
+Rubio,Valentin,Ent First Year,Ditto House,107,Double,International,10/13/1995,vrubio@pokéacademy.edu
+Floyd,Mya,Ent Transfer,Raichu House,206,Triple,Domestic,9/2/2005,mfloyd@pokéacademy.edu
+Hester,Kane,Ent First Year,Lickitung House,304,Single,Domestic,1/12/1992,khester@pokéacademy.edu
+Cabrera,Myah,Ent First Year,Pidgey House,415,Triple,Domestic,5/2/1996,mcabrera@pokéacademy.edu
+Park,Alanna,Ent First Year,Bayleef House,509,Single,Domestic,10/22/1993,apark@pokéacademy.edu
+Grant,Ryan,Ent First Year,Sylveon House,414,Double,International,5/20/1999,rgrant@pokéacademy.edu
+Robles,Diane,Ent Transfer,Leafeon House,405,Double,International,9/3/1991,drobles@pokéacademy.edu
+Francis,Terrance,Ent First Year,Gengar House,511,Quadruple,International,10/5/1997,tfrancis@pokéacademy.edu
+Dudley,Kameron,Ent First Year,Articuno House,213,Double,Domestic,2/6/2000,kdudley@pokéacademy.edu
+Cain,Paxton,Ent First Year,Lickitung House,101,Quadruple,Domestic,7/24/1992,pcain@pokéacademy.edu
+Gould,Tiana,Ent First Year,Raichu House,410,Single,Domestic,10/12/2000,tgould@pokéacademy.edu
+Krause,Demetrius,Ent First Year,Farfetch'd House,406,Quadruple,Domestic,11/1/2004,dkrause@pokéacademy.edu
+Massey,Jalon,Ent First Year,Oddish House,507,Double,Domestic,6/4/1990,jmassey@pokéacademy.edu
+Santiago,Rohan,Ent Transfer,Wailord House,210,Single,Domestic,11/27/1990,rsantiago@pokéacademy.edu
+Nguyen,Estefania,Ent First Year,Piplup House,308,Double,International,1/23/1993,enguyen@pokéacademy.edu
+Arellano,Joelle,Ent First Year,Vulpix House,214,Double,Domestic,1/20/1999,jarellano@pokéacademy.edu
+Douglas,Khalil,Ent First Year,Pidgey House,206,Quadruple,International,11/29/1995,kdouglas@pokéacademy.edu
+Carrillo,Kristofer,Ent First Year,Caterpie House,403,Quadruple,International,7/11/1999,kcarrillo@pokéacademy.edu
+Vega,Ismael,Ent First Year,Clefairy House,414,Single,Domestic,3/20/2004,ivega@pokéacademy.edu
+Salas,Harvey,Ent First Year,Piplup House,209,Single,International,10/31/2002,hsalas@pokéacademy.edu
+Fletcher,Kian,Ent First Year,Cubone House,416,Single,Domestic,9/8/2000,kfletcher@pokéacademy.edu
+Zuniga,William,Ent Transfer,Moltres House,108,Double,Domestic,1/9/2003,wzuniga@pokéacademy.edu
+Morse,Caitlyn,Ent Transfer,Moltres House,207,Quadruple,Domestic,11/23/1991,cmorse@pokéacademy.edu
+Fox,Leon,Ent First Year,Mew House,102,Double,Domestic,3/16/2004,lfox@pokéacademy.edu
+Hoover,Zachery,Ent First Year,Luxio House,508,Double,Domestic,10/24/2004,zhoover@pokéacademy.edu
+Duncan,Demarcus,Ent First Year,Farfetch'd House,103,Double,Domestic,10/26/1993,dduncan@pokéacademy.edu
+Flynn,Madyson,Ent First Year,Ivysaur House,411,Triple,International,7/1/1992,mflynn@pokéacademy.edu
+Cooper,Syed,Ent First Year,Gengar House,406,Double,Domestic,5/26/2003,scooper@pokéacademy.edu
+Hunt,Colt,Ent First Year,Mudkip House,205,Single,Domestic,3/22/1998,chunt@pokéacademy.edu
+Lamb,Nicolas,Ent First Year,Farfetch'd House,308,Double,Domestic,8/4/1990,nlamb@pokéacademy.edu
+Strickland,Aubrey,Ent First Year,Farfetch'd House,304,Double,Domestic,9/19/1990,astrickland@pokéacademy.edu
+Bradley,Nathaniel,Ent First Year,Leafeon House,402,Double,Domestic,1/19/1995,nbradley@pokéacademy.edu
+Benitez,Deon,Ent Transfer,Umbreon House,308,Single,Domestic,5/4/1994,dbenitez@pokéacademy.edu
+Liu,Hailey,Ent First Year,Articuno House,407,Triple,Domestic,12/31/1992,hliu@pokéacademy.edu
+Maxwell,Lloyd,Ent First Year,Wailord House,312,Single,Domestic,2/24/2003,lmaxwell@pokéacademy.edu
+Alvarado,Kristine,Ent First Year,Leafeon House,412,Double,International,3/7/2006,kalvarado@pokéacademy.edu
+Robles,Marlon,Ent First Year,Torterra House,308,Double,International,5/12/2004,mrobles@pokéacademy.edu
+Roman,Ashly,Ent First Year,Wailord House,416,Quadruple,Domestic,5/3/2006,aroman@pokéacademy.edu
+Bowman,Denise,Ent First Year,Oddish House,509,Single,Domestic,6/16/1991,dbowman@pokéacademy.edu
+Banks,Lloyd,Ent First Year,Charmander House,104,Single,Domestic,1/3/1992,lbanks@pokéacademy.edu
+Stanley,Kirstin,Ent Transfer,Spoink House,503,Quadruple,Domestic,2/22/1999,kstanley@pokéacademy.edu
+Wilkinson,Emanuel,Ent Transfer,Umbreon House,304,Quadruple,Domestic,8/11/1994,ewilkinson@pokéacademy.edu
+Mercer,Davis,Ent First Year,Vulpix House,408,Quadruple,Domestic,12/15/2000,dmercer@pokéacademy.edu
+Gilbert,Lawson,Ent First Year,Bayleef House,102,Triple,Domestic,7/15/1996,lgilbert@pokéacademy.edu
+Pratt,Katlynn,Ent First Year,Charmander House,309,Triple,International,1/2/1996,kpratt@pokéacademy.edu
+Goodwin,Anne,Ent Transfer,Cyndaquil House,211,Quadruple,Domestic,9/21/2004,agoodwin@pokéacademy.edu
+Bernard,Sydnie,Ent First Year,Pidgey House,207,Triple,Domestic,9/28/2001,sbernard@pokéacademy.edu
+Bradshaw,Scott,Ent First Year,Articuno House,509,Triple,International,8/18/1996,sbradshaw@pokéacademy.edu
+Yates,Emma,Ent First Year,Articuno House,102,Single,Domestic,11/29/1996,eyates@pokéacademy.edu
+Rivers,Carlie,Ent First Year,Togepi House,103,Triple,Domestic,9/19/1996,crivers@pokéacademy.edu
+Cohen,Layla,Ent First Year,Cyndaquil House,207,Double,Domestic,12/14/1996,lcohen@pokéacademy.edu
+Reeves,Jamel,Ent First Year,Ho-Oh House,110,Double,Domestic,5/23/2006,jreeves@pokéacademy.edu
+Pearson,Rey,Ent First Year,Muk House,213,Quadruple,Domestic,10/10/2003,rpearson@pokéacademy.edu
+Avila,Corey,Ent Transfer,Ivysaur House,310,Triple,Domestic,10/14/2005,cavila@pokéacademy.edu
+Petty,Adolfo,Ent First Year,Cubone House,202,Triple,International,1/14/1994,apetty@pokéacademy.edu
+Rocha,Lyric,Ent First Year,Ivysaur House,110,Single,International,3/25/2006,lrocha@pokéacademy.edu
+Gould,Jaron,Ent Transfer,Ho-Oh House,310,Double,Domestic,11/4/1994,jgould@pokéacademy.edu
+Zamora,Dashawn,Ent First Year,Mudkip House,101,Single,Domestic,9/7/2002,dzamora@pokéacademy.edu
+Kent,Macie,Ent First Year,Regice House,215,Single,Domestic,6/16/1996,mkent@pokéacademy.edu
+Benjamin,Malcolm,Ent First Year,Caterpie House,511,Single,Domestic,8/14/2003,mbenjamin@pokéacademy.edu
+Murray,Rylan,Ent First Year,Moltres House,403,Quadruple,Domestic,8/8/1991,rmurray@pokéacademy.edu
+Rodriguez,Lindsey,Ent First Year,Muk House,506,Quadruple,International,6/3/2004,lrodriguez@pokéacademy.edu
+Nielsen,Skyla,Ent First Year,Bayleef House,503,Double,Domestic,8/8/2004,snielsen@pokéacademy.edu
+Cross,Ben,Ent First Year,Farfetch'd House,404,Triple,Domestic,7/17/2005,bcross@pokéacademy.edu
+Hardin,Jarvis,Ent First Year,Mew House,206,Double,International,10/29/2004,jhardin@pokéacademy.edu
+Moody,Raegan,Ent First Year,Togepi House,416,Quadruple,Domestic,8/13/1992,rmoody@pokéacademy.edu
+Webster,Lauryn,Ent Transfer,Leafeon House,206,Double,Domestic,4/18/1999,lwebster@pokéacademy.edu
+Beard,Jamison,Ent First Year,Lickitung House,311,Quadruple,Domestic,1/23/1993,jbeard@pokéacademy.edu
+Chambers,Emerson,Ent First Year,Cubone House,104,Double,Domestic,11/19/1996,echambers@pokéacademy.edu
+Skinner,Austyn,Ent First Year,Charmander House,511,Double,International,9/19/2000,askinner@pokéacademy.edu
+Martin,Kiarra,Ent First Year,Vulpix House,406,Quadruple,International,8/19/2002,kmartin@pokéacademy.edu
+Curry,Tyrell,Ent First Year,Leafeon House,214,Triple,International,9/13/1997,tcurry@pokéacademy.edu
+Key,Kailyn,Ent First Year,Vulpix House,502,Triple,Domestic,10/5/1997,kkey@pokéacademy.edu
+Anthony,Carrie,Ent First Year,Pidgey House,101,Triple,Domestic,4/29/2001,canthony@pokéacademy.edu
+Day,Cameron,Ent First Year,Rowlet House,406,Quadruple,Domestic,9/19/1990,cday@pokéacademy.edu
+Holmes,Glen,Ent First Year,Umbreon House,412,Triple,Domestic,7/28/2002,gholmes@pokéacademy.edu
+Mills,Lloyd,Ent First Year,Spoink House,204,Quadruple,Domestic,10/20/1994,lmills@pokéacademy.edu
+Fitzgerald,Alisa,Ent First Year,Spoink House,311,Single,Domestic,4/18/2004,afitzgerald@pokéacademy.edu
+Brown,Drew,Ent First Year,Squirtle House,502,Double,Domestic,2/3/1997,dbrown@pokéacademy.edu
+Morales,Alan,Ent First Year,Squirtle House,416,Double,Domestic,12/7/2004,amorales@pokéacademy.edu
+Olson,Karly,Ent First Year,Pikachu Hall,415,Double,Domestic,7/10/1999,kolson@pokéacademy.edu
+Ballard,Estevan,Ent Transfer,Ivysaur House,204,Single,Domestic,10/29/2004,eballard@pokéacademy.edu
+Williamson,Adrian,Ent Transfer,Umbreon House,414,Double,Domestic,8/26/2001,awilliamson@pokéacademy.edu
+Horne,Kobe,Ent First Year,Cubone House,106,Double,Domestic,7/25/2005,khorne@pokéacademy.edu
+Morton,Britney,Ent First Year,Raichu House,414,Triple,Domestic,6/23/1991,bmorton@pokéacademy.edu
+Skinner,Grayson,Ent First Year,Wailord House,209,Single,International,10/16/2005,gskinner@pokéacademy.edu
+Mcdonald,Jadon,Ent First Year,Moltres House,502,Triple,Domestic,2/18/2003,jmcdonald@pokéacademy.edu
+Li,Mariela,Ent First Year,Cyndaquil House,308,Triple,Domestic,10/7/1990,mli@pokéacademy.edu
+Ayala,Kelli,Ent First Year,Vulpix House,210,Triple,Domestic,8/3/2002,kayala@pokéacademy.edu
+Ramirez,Mariah,Ent First Year,Pikachu Hall,308,Triple,International,8/27/2001,mramirez@pokéacademy.edu
+Schneider,Efren,Ent First Year,Leafeon House,414,Single,Domestic,4/6/1998,eschneider@pokéacademy.edu
+Todd,Sabrina,Ent First Year,Moltres House,311,Quadruple,Domestic,1/25/2006,stodd@pokéacademy.edu
+Savage,Kaitlynn,Ent First Year,Torterra House,509,Double,Domestic,1/19/2005,ksavage@pokéacademy.edu
+Nguyen,Omari,Ent First Year,Farfetch'd House,101,Triple,Domestic,11/20/1997,onguyen@pokéacademy.edu
+Brewer,Malcolm,Ent First Year,Clefairy House,204,Double,Domestic,2/2/2004,mbrewer@pokéacademy.edu
+Riley,Margarita,Ent First Year,Sylveon House,208,Single,Domestic,8/24/1999,mriley@pokéacademy.edu
+Barrera,Milton,Ent First Year,Lickitung House,503,Double,International,5/17/2000,mbarrera@pokéacademy.edu
+Mendoza,Greta,Ent First Year,Wailord House,311,Single,Domestic,7/12/1999,gmendoza@pokéacademy.edu
+Wilkerson,Deon,Ent First Year,Vulpix House,415,Double,Domestic,12/26/1993,dwilkerson@pokéacademy.edu
+Walters,Breonna,Ent Transfer,Mudkip House,304,Single,Domestic,4/11/2006,bwalters@pokéacademy.edu
+Hoover,Hassan,Ent First Year,Bayleef House,307,Single,Domestic,11/23/2005,hhoover@pokéacademy.edu
+Eaton,Harold,Ent First Year,Zapdos House,405,Quadruple,Domestic,7/25/1996,heaton@pokéacademy.edu
+Estrada,Catalina,Ent First Year,Ivysaur House,203,Quadruple,Domestic,6/2/1998,cestrada@pokéacademy.edu
+Fuller,Jesus,Ent First Year,Vulpix House,303,Double,Domestic,4/4/1998,jfuller@pokéacademy.edu
+Kramer,Jane,Ent First Year,Bayleef House,308,Quadruple,Domestic,9/2/1996,jkramer@pokéacademy.edu
+Blackburn,Yessenia,Ent First Year,Regice House,210,Triple,Domestic,3/5/1996,yblackburn@pokéacademy.edu
+Holland,Braiden,Ent First Year,Articuno House,409,Quadruple,Domestic,7/5/1999,bholland@pokéacademy.edu
+Figueroa,Mikaela,Ent First Year,Mew House,411,Quadruple,Domestic,12/18/2005,mfigueroa@pokéacademy.edu
+Galloway,Brittney,Ent First Year,Leafeon House,307,Quadruple,Domestic,6/1/1993,bgalloway@pokéacademy.edu
+Sanford,Mateo,Ent First Year,Mew House,511,Quadruple,Domestic,6/26/2000,msanford@pokéacademy.edu
+Mccann,Lea,Ent Transfer,Cubone House,214,Single,Domestic,2/18/2004,lmccann@pokéacademy.edu
+Carson,Chloe,Ent First Year,Mew House,403,Quadruple,Domestic,12/19/1994,ccarson@pokéacademy.edu
+Weeks,Kale,Ent First Year,Moltres House,206,Single,Domestic,10/22/1999,kweeks@pokéacademy.edu
+Ponce,Baby,Ent First Year,Farfetch'd House,213,Double,Domestic,4/24/1996,bponce@pokéacademy.edu
+Nielsen,Larissa,Ent First Year,Lickitung House,511,Triple,Domestic,5/5/1991,lnielsen@pokéacademy.edu
+Reilly,Alisa,Ent First Year,Pidgey House,304,Double,Domestic,5/27/2000,areilly@pokéacademy.edu
+Morrow,Finn,Ent First Year,Oddish House,301,Triple,International,4/25/2000,fmorrow@pokéacademy.edu
+Schaefer,Cameron,Ent First Year,Vulpix House,402,Triple,International,8/30/2000,cschaefer@pokéacademy.edu
+Oneill,Sylvia,Ent First Year,Regice House,507,Quadruple,Domestic,7/10/1999,soneill@pokéacademy.edu
+Ellison,Tyrone,Ent Transfer,Articuno House,312,Quadruple,Domestic,2/22/1998,tellison@pokéacademy.edu
+Simon,Ellen,Ent First Year,Umbreon House,511,Double,International,6/17/1998,esimon@pokéacademy.edu
+Hinton,Annika,Ent First Year,Mudkip House,203,Quadruple,Domestic,2/4/1992,ahinton@pokéacademy.edu
+Oconnell,Alfred,Ent First Year,Leafeon House,207,Quadruple,Domestic,12/26/1998,aoconnell@pokéacademy.edu
+Harper,Emerald,Ent First Year,Caterpie House,508,Quadruple,Domestic,8/2/1998,eharper@pokéacademy.edu
+Black,Aldo,Ent First Year,Spoink House,212,Triple,Domestic,3/20/2006,ablack@pokéacademy.edu
+Walters,Tessa,Ent First Year,Farfetch'd House,505,Single,International,10/30/2003,twalters@pokéacademy.edu
+Fuentes,David,Ent First Year,Cyndaquil House,102,Triple,Domestic,4/10/2004,dfuentes@pokéacademy.edu
+Valdez,Marisol,Ent Transfer,Piplup House,204,Quadruple,Domestic,4/27/1990,mvaldez@pokéacademy.edu
+Grant,Kevon,Ent First Year,Bayleef House,410,Double,Domestic,3/6/2005,kgrant@pokéacademy.edu
+Jimenez,Halie,Ent Transfer,Wailord House,503,Single,Domestic,7/26/1991,hjimenez@pokéacademy.edu
+Anthony,Braden,Ent First Year,Farfetch'd House,509,Double,Domestic,10/29/2006,banthony@pokéacademy.edu
+Wilson,Bret,Ent First Year,Mew House,110,Triple,International,11/8/2002,bwilson@pokéacademy.edu
+Phillips,Cora,Ent First Year,Togepi House,414,Double,Domestic,12/7/2001,cphillips@pokéacademy.edu
+Peck,Sally,Ent First Year,Caterpie House,309,Single,Domestic,2/21/2003,speck@pokéacademy.edu
+Lopez,Perla,Ent First Year,Bulbasaur House,110,Triple,Domestic,4/16/1999,plopez@pokéacademy.edu
+Long,Katlynn,Ent Transfer,Lickitung House,110,Quadruple,Domestic,5/24/1997,klong@pokéacademy.edu
+Phillips,Hailie,Ent Transfer,Oddish House,304,Double,Domestic,1/14/2003,hphillips@pokéacademy.edu
+Bruce,Elian,Ent Transfer,Charmander House,511,Double,Domestic,11/16/1996,ebruce@pokéacademy.edu
+Lane,Alessandro,Ent Transfer,Pikachu Hall,213,Double,Domestic,3/26/2000,alane@pokéacademy.edu
+Lang,Daisha,Ent Transfer,Regice House,207,Double,Domestic,4/30/1997,dlang@pokéacademy.edu
+Morton,Maximiliano,Ent First Year,Pikachu Hall,408,Triple,Domestic,12/5/1990,mmorton@pokéacademy.edu
+Benton,Kelsey,Ent Transfer,Pikachu Hall,307,Single,International,3/10/2004,kbenton@pokéacademy.edu
+Proctor,Kevin,Ent First Year,Oddish House,211,Triple,Domestic,9/18/1999,kproctor@pokéacademy.edu
+Greene,Deion,Ent First Year,Bulbasaur House,501,Triple,Domestic,5/23/1996,dgreene@pokéacademy.edu
+Leonard,Phoenix,Ent Transfer,Mudkip House,307,Triple,International,1/23/1992,pleonard@pokéacademy.edu
+Ramsey,Angel,Ent First Year,Torterra House,410,Triple,Domestic,5/3/1991,aramsey@pokéacademy.edu
+Baldwin,Carmen,Ent First Year,Leafeon House,412,Single,International,7/17/1996,cbaldwin@pokéacademy.edu
+Chan,Donnie,Ent First Year,Pikachu Hall,106,Triple,Domestic,9/1/1996,dchan@pokéacademy.edu
+Day,Lilian,Ent First Year,Torterra House,503,Double,Domestic,8/23/1990,lday@pokéacademy.edu
+Moore,Sheila,Ent First Year,Pidgey House,306,Double,Domestic,5/28/1997,smoore@pokéacademy.edu
