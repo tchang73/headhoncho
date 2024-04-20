@@ -40,10 +40,12 @@ split_sheet <- function(sheet, ..., keep = FALSE) {
   new_data <- split(sheet, split_on)
   if (length(split_on) > 1 & keep == FALSE) {
     combo <- sapply(new_data, nrow) > 0
-    warning(paste("Combination",
-                  names(new_data[-combo]),
-                  "has no observations. Empty data frame has been removed.\n"),
-            call. = FALSE)
+    if (FALSE %in% combo) {
+      warning(paste("Combination",
+                    names(new_data[-combo]),
+                    "has no observations. Empty data frame has been removed.\n"),
+              call. = FALSE)
+    }
     new_data <- new_data[combo]
   }
   return(new_data)
