@@ -1,0 +1,50 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# headhoncho
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The headhoncho package aims to help split one Google sheet into multiple Google sheets based on one (or more) variables. Functions within the package aim to make a smooth experience with the `googlesheets4` API.
+
+## Installation
+
+You can install the development version of headhoncho from [GitHub](https://github.com/) with:
+
+```{r}
+# install.packages("devtools")
+devtools::install_github("tchang73/headhoncho")
+```
+
+## Example
+
+The `headhoncho` package allows you to read a Google sheet into R, split it based on specified variable(s), and export it into multiple, separate, Google sheets. It is built on functionality from `tidyverse`'s `googlesheets4` package. The general workflow looks like this:
+
+![Image depicting headhoncho package workflow](/man/figures/headhoncho_readme_graphic.jpg)
+
+```{r example, eval = FALSE}
+library(headhoncho)
+
+my_data <- pokeacademy_data
+
+head(my_data)
+
+split_data <- split_sheet(my_data, envir = .GlobalEnv, keep = FALSE, Hall, Room_Type)
+
+print(split_data)
+
+export_data(split_data)
+```
