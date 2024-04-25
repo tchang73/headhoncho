@@ -19,9 +19,9 @@
 #'   [`base::split`] method.)
 #'
 #' @examples
-#' df <- data.frame (A = c("a", "a", "b", "b"),
-#'                   B = c(1, 2, 2, 3),
-#'                   C = c(TRUE, TRUE, TRUE, FALSE))
+#' df <- data.frame(A = c("a", "a", "b", "b"),
+#'                  B = c(1, 2, 2, 3),
+#'                  C = c(TRUE, TRUE, TRUE, FALSE))
 #' ## Don't keep data frames with no observations (ex: group formed by df$A == "a" and df$B == 3)
 #' data_list <- split_sheet(df, df$A, df$B)
 #'
