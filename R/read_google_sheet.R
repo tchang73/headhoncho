@@ -1,6 +1,6 @@
 #' @title A function to read a Google Sheet by URL
 #'
-#' This function authenticates the user, if not already authenticated, accesses a Google Sheet using the provided URL, and reads its contents. It requires the user to have appropriate permissions to view the Google Sheet.
+#' @description This function authenticates the user, if not already authenticated, accesses a Google Sheet using the provided URL, and reads its contents. It requires the user to have appropriate permissions to view the Google Sheet.
 
 #' @param sheet_url A string containing the URL of the Google Sheet to be accessed. The URL should be in the standard format provided in the Google Sheets browser address bar.
 #'
@@ -12,11 +12,6 @@
 #' \dontrun{
 #'   sheet_url <- "https://docs.google.com/spreadsheets/d/YOUR_SHEET_ID_HERE/edit"
 #'   data <- read_google_sheet(sheet_url)
-#'   if (!is.null(data)) {
-#'     print(data)
-#'   } else {
-#'     cat("Failed to read data from Google Sheet.\n")
-#'   }
 #' }
 #' @export
 
