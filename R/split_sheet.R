@@ -25,6 +25,7 @@
 #'                     C = c(TRUE, TRUE, TRUE, FALSE))
 #'   ## Don't keep data frames with no observations (ex: group formed by df$A == "a" and df$B == 3)
 #'   data_list <- split_sheet(df, df$A, df$B)
+
 #'
 #'   ## Keep all data frames regardless of if they are empty.
 #'   data_list_2 <- split_sheet(df, df$A, df$B, keep = TRUE)
