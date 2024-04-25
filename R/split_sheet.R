@@ -1,4 +1,4 @@
-#' @title Split a Data Frame into Groups
+#' @title Split a Data Frame by Specified Variables
 #'
 #' @description
 #' This function splits a data frame into a list of smaller data frames based on one or more
@@ -10,24 +10,26 @@
 #'   format. When more than one group is provided, the data frame is split on their interaction
 #'   (i.e. split into groups resulting from each combination of values of the groups/variables being
 #'   split on).
-#' @param keep A logical vector of length one indicating whether to keep all data frames (`TRUE`) or
-#'   discard data frames for groups where there are no observations, particularly if more than one
-#'   variable is specified for splitting (TRUE).
+#' @param keep A logical vector of length one indicating whether to keep all data frames (if TRUE) or
+#'   discard data frames for groups where there are no observations (if FALSE), particularly if more than one
+#'   variable is specified for splitting.
 #'
 #' @return A list of data frames that have been split on one or more specified variables. The
 #'   components are named after the categories they have been split on (as seen in the
 #'   [`base::split`] method.)
 #'
 #' @examples
-#' df <- data.frame(A = c("a", "a", "b", "b"),
-#'                  B = c(1, 2, 2, 3),
-#'                  C = c(TRUE, TRUE, TRUE, FALSE))
-#' ## Don't keep data frames with no observations (ex: group formed by df$A == "a" and df$B == 3)
-#' data_list <- split_sheet(df, df$A, df$B)
+#' \dontrun{
+#'   df <- data.frame (A = c("a", "a", "b", "b"),
+#'                     B = c(1, 2, 2, 3),
+#'                     C = c(TRUE, TRUE, TRUE, FALSE))
+#'   ## Don't keep data frames with no observations (ex: group formed by df$A == "a" and df$B == 3)
+#'   data_list <- split_sheet(df, df$A, df$B)
+
 #'
-#' ## Keep all data frames regardless of if they are empty.
-#' data_list_2 <- split_sheet(df, df$A, df$B, keep = TRUE)
-#'
+#'   ## Keep all data frames regardless of if they are empty.
+#'   data_list_2 <- split_sheet(df, df$A, df$B, keep = TRUE)
+#' }
 #'
 #' @export
 split_sheet <- function(sheet, ..., keep = FALSE) {
