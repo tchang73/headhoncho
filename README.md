@@ -28,7 +28,7 @@ separate, Google sheets. It is built on functionality from `tidyverse`’s
 `googlesheets4` package. The general workflow looks like this:
 
 ![Graphic of headhoncho package
-workflow](man/figures/README-workflow_graphic.jpg) \## Loading in the
+workflow](man/figures/README-workflow_graphic.png) \## Loading in the
 package
 
 Like most R packages, it is best to load the `headhoncho` package in

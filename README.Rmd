@@ -33,7 +33,7 @@ devtools::install_github("tchang73/headhoncho")
 
 The `headhoncho` package allows you to read a Google sheet into R, split it based on specified variable(s), and export it into multiple, separate, Google sheets. It is built on functionality from `tidyverse`'s `googlesheets4` package. The general workflow looks like this:
 
-![Graphic of headhoncho package workflow](man/figures/README-workflow_graphic.jpg)
+![Graphic of headhoncho package workflow](man/figures/README-workflow_graphic.png)
 ## Loading in the package
 
 Like most R packages, it is best to load the `headhoncho` package in with the `library()` function.
