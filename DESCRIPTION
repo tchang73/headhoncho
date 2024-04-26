@@ -16,3 +16,7 @@ Depends:
 LazyData: true
 Imports: 
     googlesheets4
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
