@@ -52,7 +52,7 @@ example_data
 
 This function is the main functionality of the package. It takes in a dataframe object (typically a tibble that has been `read_google_sheet()`) as well as the columns on which to group and split. It outputs a list of dataframes, where each dataframe contains a single group of the splitting variables. Columns should be specified using the `data_frame$variable` format, and as many columns as desired can be specified as individual arguments (no need to group them manually into any sort of list to pass to the function!). After creating the list of dataframes, this function automatically discards any dataframes for which there are 0 observations, but this behavior can be overridden by specifying `keep = TRUE`. For example, here is a dataframe in which observations will be discarded:
 
-```{r, eval = TRUE}
+```{r}
 df <- data.frame (A = c("a", "a", "b", "b"),
                   B = c(1, 2, 2, 3),
                   C = c(TRUE, TRUE, TRUE, FALSE))
