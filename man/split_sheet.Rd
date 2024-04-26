@@ -2,7 +2,7 @@
 % Please edit documentation in R/split_sheet.R
 \name{split_sheet}
 \alias{split_sheet}
-\title{Split a Data Frame into Groups}
+\title{Split a Data Frame by Specified Variables}
 \usage{
 split_sheet(sheet, ..., keep = FALSE)
 }
@@ -15,9 +15,9 @@ format. When more than one group is provided, the data frame is split on their i
 (i.e. split into groups resulting from each combination of values of the groups/variables being
 split on).}
 
-\item{keep}{A logical vector of length one indicating whether to keep all data frames (\code{TRUE}) or
-discard data frames for groups where there are no observations, particularly if more than one
-variable is specified for splitting (TRUE).}
+\item{keep}{A logical vector of length one indicating whether to keep all data frames (if TRUE) or
+discard data frames for groups where there are no observations (if FALSE), particularly if more than one
+variable is specified for splitting.}
 }
 \value{
 A list of data frames that have been split on one or more specified variables. The
@@ -29,14 +29,15 @@ This function splits a data frame into a list of smaller data frames based on on
 specified variables.
 }
 \examples{
-df <- data.frame (A = c("a", "a", "b", "b"),
-                  B = c(1, 2, 2, 3),
-                  C = c(TRUE, TRUE, TRUE, FALSE))
-## Don't keep data frames with no observations (ex: group formed by df$A == "a" and df$B == 3)
-data_list <- split_sheet(df, df$A, df$B)
+\dontrun{
+  df <- data.frame (A = c("a", "a", "b", "b"),
+                    B = c(1, 2, 2, 3),
+                    C = c(TRUE, TRUE, TRUE, FALSE))
+  ## Don't keep data frames with no observations (ex: group formed by df$A == "a" and df$B == 3)
+  data_list <- split_sheet(df, df$A, df$B)
 
-## Keep all data frames regardless of if they are empty.
-data_list_2 <- split_sheet(df, df$A, df$B, keep = TRUE)
-
+  ## Keep all data frames regardless of if they are empty.
+  data_list_2 <- split_sheet(df, df$A, df$B, keep = TRUE)
+}
 
 }
