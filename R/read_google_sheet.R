@@ -1,6 +1,6 @@
 #' @title A function to read a Google Sheet by URL
 #'
-#' @description This function authenticates the user, if not already authenticated, accesses a Google Sheet using the provided URL, and reads its contents. It requires the user to have appropriate permissions to view the Google Sheet.
+#' @description This function accesses a Google Sheet using the provided URL, and reads its contents. It requires the user to have appropriate permissions to view the Google Sheet.
 
 #' @param sheet_url A string containing the URL of the Google Sheet to be accessed. The URL should be in the standard format provided in the Google Sheets browser address bar.
 #'
@@ -14,9 +14,6 @@
 #' }
 #' @export
 read_google_sheet <- function(sheet_url) {
-  # Ensure authentication; prompt in browser if not already authenticated
-  googlesheets4::gs4_auth(cache = TRUE)
-
   # Try to access the Google Sheet
   sheet <- tryCatch({
     # Access the sheet using its URL
@@ -31,8 +28,6 @@ read_google_sheet <- function(sheet_url) {
   if (!is.null(sheet)) {
     cat("Access to Google Sheet successful! Reading contents...\n")
 
-    # Print and return the extracted data
-    print(sheet)
     return(sheet)  # Return the extracted data
   } else {
     cat("Failed to access Google Sheet. Check the URL or authentication.\n")

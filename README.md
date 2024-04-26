@@ -4,6 +4,8 @@
 # headhoncho
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/tchang73/headhoncho/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/tchang73/headhoncho/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The headhoncho package aims to help split one Google sheet into multiple
@@ -28,7 +30,7 @@ separate, Google sheets. It is built on functionality from `tidyverse`’s
 `googlesheets4` package. The general workflow looks like this:
 
 ![Graphic of headhoncho package
-workflow](man/figures/README-workflow_graphic.jpg) \## Loading in the
+workflow](man/figures/README-workflow_graphic.png) \## Loading in the
 package
 
 Like most R packages, it is best to load the `headhoncho` package in
@@ -38,10 +40,20 @@ with the `library()` function.
 library(headhoncho)
 ```
 
+## Authentication
+
+The `headhoncho` package will automatically use the `googlesheets4`
+authentication process the first time that an action requiring
+authentication is performed. Generally, this is through the `gs4_auth()`
+function. For this documentation, we have not authenticated and will
+just provide example code rather than code that will run.
+
 ## Reading in sheets
 
-The `read_google_sheet` can be used to read in data from a URL. It will
-also check for read and write authentication for a Google account.
+The `read_google_sheet` can be used to read in data from a Google sheets
+URL. This code will not run, but this is an example of how a URL should
+be passed to the function. This function can not be used with
+*published* google sheets.
 
 ``` r
 read_google_sheet("https://docs.google.com/spreadsheets/d/1U6Cf_qEOhiR9AZqTqS3mbMF3zt2db48ZP5v3rkrAEJY/edit#gid=780868077")
@@ -52,7 +64,8 @@ read_google_sheet("https://docs.google.com/spreadsheets/d/1U6Cf_qEOhiR9AZqTqS3mb
 The `split_data` function splits a data frame into a list of smaller
 data frames based on groupings from given variable(s). The provided
 `pokeacademy_data` data set will be used to demonstrate. We’ll split on
-two variables to show the functionality.
+two variables to show the functionality. We will print only the first 6
+rows for readability.
 
 ``` r
 head(pokeacademy_data)
