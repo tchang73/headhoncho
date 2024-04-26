@@ -17,13 +17,14 @@
 #'   was exported to new Google sheets.
 #'
 #' @examples
+#' \dontrun{
 #' df1 <- data.frame(A = c("a", "a", "b", "b"),
 #'                   B = c(1, 2, 2, 3),
 #'                   C = c(TRUE, TRUE, TRUE, FALSE))
 #' df2 <- data.frame(A = c("a", "a", "b", "b"),
 #'                   B = c(1, 2, 2, 3),
 #'                   C = c(TRUE, TRUE, TRUE, FALSE))
-#' df_list <- list(df1, df2)
+#' df_list <- list(df1, df2)}
 #'
 #' # Export data to existing Google sheets
 #' export_data(df_list, sheet_id = c("export data demo 1", "export data demo 2"))
