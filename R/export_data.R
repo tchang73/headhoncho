@@ -51,7 +51,7 @@ export_data <- function(data_list,
            Instead, there are",
            length(data_list),
            "data frames and",
-           length(sheet_names),
+           length(names),
            "sheet names"),
            call. = FALSE)
     }
