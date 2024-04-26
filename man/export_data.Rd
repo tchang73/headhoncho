@@ -29,19 +29,21 @@ This function exports a list of data frames into their own Google sheets. It can
 either create new Google sheets or write into pre-existing ones.
 }
 \examples{
-df1 <- data.frame(A = c("a", "a", "b", "b"),
+\dontrun{
+    df1 <- data.frame(A = c("a", "a", "b", "b"),
                   B = c(1, 2, 2, 3),
                   C = c(TRUE, TRUE, TRUE, FALSE))
-df2 <- data.frame(A = c("a", "a", "b", "b"),
+    df2 <- data.frame(A = c("a", "a", "b", "b"),
                   B = c(1, 2, 2, 3),
                   C = c(TRUE, TRUE, TRUE, FALSE))
-df_list <- list(df1, df2)
+    df_list <- list(df1, df2)
 
-# Export data to existing Google sheets
-export_data(df_list, sheet_id = c("export data demo 1", "export data demo 2"))
 
-# Export data to new Google sheets
-export_data(df_list, names = c("Demo_Sheet_1", "Demo_Sheet_2"))
+    # Export data to existing Google sheets
+    export_data(df_list, sheet_id = c("export data demo 1", "export data demo 2"))
 
+    # Export data to new Google sheets
+    export_data(df_list, names = c("Demo_Sheet_1", "Demo_Sheet_2"))
+}
 
 }
