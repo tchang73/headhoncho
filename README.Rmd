@@ -45,10 +45,10 @@ library(headhoncho)
 
 ## Reading in sheets
 
-The `login_function` can be used to read in data from a URL. It will also check for read and write authentication for a Google account.
+The `read_google_sheet` can be used to read in data from a URL. It will also check for read and write authentication for a Google account.
 
 ```{r, eval = FALSE}
-login_function("https://docs.google.com/spreadsheets/d/1U6Cf_qEOhiR9AZqTqS3mbMF3zt2db48ZP5v3rkrAEJY/edit#gid=780868077")
+read_google_sheet("https://docs.google.com/spreadsheets/d/1U6Cf_qEOhiR9AZqTqS3mbMF3zt2db48ZP5v3rkrAEJY/edit#gid=780868077")
 ```
 
 ## Splitting data
@@ -58,9 +58,9 @@ The `split_data` function splits a data frame into a list of smaller data frames
 ```{r example}
 head(pokeacademy_data)
 
-split_data <- split_sheet(pokeacademy_data, pokeacademy_data$Hall, pokeacademy_data$Student_Type)
+split_data <- split_sheet(pokeacademy_data, pokeacademy_data$Citizenship_DESC, pokeacademy_data$Student_Type)
 
-print(split_data)
+print(lapply(split_data, head))
 ```
 
 ## Exporting data
