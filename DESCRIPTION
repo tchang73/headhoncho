@@ -3,9 +3,9 @@ Title: Splitting Google Sheets Into Multiple Smaller Google Sheets
 Version: 0.0.0.9000
 Authors@R: 
     c(
-    person("Elm", "Markert", role = c("aut", "cre")),
+    person("Elm", "Markert", role = c("aut")),
     person("Tillie", "Slosser", role = c("aut", "cre")),
-    person("Tina", "Chang", role = c("aut", "cre"))
+    person("Tina", "Chang", role = c("aut"))
            )
 Description: What the package does (one paragraph).
 License: MIT + file LICENSE
