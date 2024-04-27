@@ -1,5 +1,7 @@
 library(googlesheets4)
 test_that("The correct message and value are returned when there's an error in read_google_sheet().", {
+  # Indicating to the Google sheets 4 api that we don't need authorization (using public sheet)
+  gs4_deauth()
   # Checking that a null value is returned on error.
   expect_null(read_google_sheet("hi"))
   # Checking for the correct error message being printed to the console.
