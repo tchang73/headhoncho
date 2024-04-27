@@ -5,7 +5,7 @@ test_that("The correct message and value are returned when there's an error in r
   # Checking for the correct error message being printed to the console.
   expect_output(
     read_google_sheet("hi"),
-    "Error accessing Google Sheet:  Client error: \(404\) NOT_FOUND \\nFailed to access Google Sheet\. Check the URL or authentication\."
+    "Error accessing Google Sheet:  Client error: \\(404\\) NOT_FOUND \\nFailed to access Google Sheet\\. Check the URL or authentication\\."
     )
 })
 
