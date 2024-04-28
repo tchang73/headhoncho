@@ -46,14 +46,19 @@ library(headhoncho)
 
 ## Authentication
 
-The `headhoncho` package will automatically use the `googlesheets4` authentication process the first time that an action requiring authentication is performed. Generally, this is through the `gs4_auth()` function. For this documentation, we have not authenticated and will just provide example code rather than code that will run.
+The `headhoncho` package will automatically use the `googlesheets4` authentication process the first time that an action requiring authentication is performed. Generally, this is through the `gs4_auth()` function. For this documentation, we have not authenticated and will just provide example code.
 
 ## Reading in sheets
 
-The `read_google_sheet` can be used to read in data from a Google sheets URL. This code will not run, but this is an example of how a URL should be passed to the function. This function can not be used with *published* google sheets.
+The `read_google_sheet` can be used to read in data from a Google sheets ID, typically provided either as a URL or part of a URL. Typically, you need to authenticate to do this. In this case, since we are accessing a publicly available example Google sheet, we don't need to authenticate, which we have indicated to the API in a hidden code chunk. In general, it is a smarter (but not 100% necessary) idea to authenticate.
+```{r, echo=FALSE}
+googlesheets4::gs4_deauth()
+```
 
-```{r, eval = FALSE}
-read_google_sheet("https://docs.google.com/spreadsheets/d/1U6Cf_qEOhiR9AZqTqS3mbMF3zt2db48ZP5v3rkrAEJY/edit#gid=780868077")
+```{r}
+# Full URL: https://docs.google.com/spreadsheets/d/1HO3e_VCqdbyRGbKOgzt57aLLlhVCP7YQGmy411tqGNc
+example_data <- read_google_sheet("1HO3e_VCqdbyRGbKOgzt57aLLlhVCP7YQGmy411tqGNc")
+head(example_data)
 ```
 
 ## Splitting data
