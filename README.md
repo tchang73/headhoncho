@@ -51,17 +51,34 @@ The `headhoncho` package will automatically use the `googlesheets4`
 authentication process the first time that an action requiring
 authentication is performed. Generally, this is through the `gs4_auth()`
 function. For this documentation, we have not authenticated and will
-just provide example code rather than code that will run.
+just provide example code.
 
 ## Reading in sheets
 
 The `read_google_sheet` can be used to read in data from a Google sheets
-URL. This code will not run, but this is an example of how a URL should
-be passed to the function. This function can not be used with
-*published* google sheets.
+ID, typically provided either as a URL or part of a URL. Typically, you
+need to authenticate to do this. In this case, since we are accessing a
+publicly available example Google sheet, we don’t need to authenticate,
+which we have indicated to the API in a hidden code chunk. In general,
+it is a smarter (but not 100% necessary) idea to authenticate.
 
 ``` r
-read_google_sheet("https://docs.google.com/spreadsheets/d/1U6Cf_qEOhiR9AZqTqS3mbMF3zt2db48ZP5v3rkrAEJY/edit#gid=780868077")
+# Full URL: https://docs.google.com/spreadsheets/d/1HO3e_VCqdbyRGbKOgzt57aLLlhVCP7YQGmy411tqGNc
+example_data <- read_google_sheet("1HO3e_VCqdbyRGbKOgzt57aLLlhVCP7YQGmy411tqGNc")
+#> ✔ Reading from "headhoncho package example data".
+#> ✔ Range 'full_data'.
+#> Access to Google Sheet successful! Reading contents...
+head(example_data)
+#> # A tibble: 6 × 9
+#>   Last_Name First_Name Student_Type   Hall       Room Room_Type Citizenship_DESC
+#>   <chr>     <chr>      <chr>          <chr>     <dbl> <chr>     <chr>           
+#> 1 Hardy     Rosalinda  Ent First Year Togepi H…   508 Quadruple Domestic        
+#> 2 Pierce    Christa    Ent First Year Squirtle…   209 Single    Domestic        
+#> 3 Patrick   Heriberto  Ent First Year Ho-Oh Ho…   306 Quadruple Domestic        
+#> 4 Mason     Stefan     Ent First Year Umbreon …   212 Triple    Domestic        
+#> 5 Booth     Mike       Ent First Year Gengar H…   302 Triple    Domestic        
+#> 6 Mitchell  Janice     Ent First Year Bayleef …   212 Single    Domestic        
+#> # ℹ 2 more variables: DOB <dttm>, Email <chr>
 ```
 
 ## Splitting data
@@ -82,12 +99,12 @@ head(pokeacademy_data)
 #> 5     Booth       Mike Ent First Year   Gengar House  302    Triple
 #> 6  Mitchell     Janice Ent First Year  Bayleef House  212    Single
 #>   Citizenship_DESC        DOB                     Email
-#> 1         Domestic  6/15/1994    rhardy@pokéacademy.edu
-#> 2         Domestic  8/10/2001   cpierce@pokéacademy.edu
-#> 3         Domestic   3/6/1993  hpatrick@pokéacademy.edu
-#> 4         Domestic   6/9/1994    smason@pokéacademy.edu
-#> 5         Domestic 10/30/2003    mbooth@pokéacademy.edu
-#> 6         Domestic 11/20/2006 jmitchell@pokéacademy.edu
+#> 1         Domestic  6/15/1994    rhardy@pokeacademy.edu
+#> 2         Domestic  8/10/2001   cpierce@pokeacademy.edu
+#> 3         Domestic   3/6/1993  hpatrick@pokeacademy.edu
+#> 4         Domestic   6/9/1994    smason@pokeacademy.edu
+#> 5         Domestic 10/30/2003    mbooth@pokeacademy.edu
+#> 6         Domestic 11/20/2006 jmitchell@pokeacademy.edu
 
 split_data <- split_sheet(pokeacademy_data, pokeacademy_data$Citizenship_DESC, pokeacademy_data$Student_Type)
 
@@ -101,12 +118,12 @@ print(lapply(split_data, head))
 #> 5     Booth       Mike Ent First Year   Gengar House  302    Triple
 #> 6  Mitchell     Janice Ent First Year  Bayleef House  212    Single
 #>   Citizenship_DESC        DOB                     Email
-#> 1         Domestic  6/15/1994    rhardy@pokéacademy.edu
-#> 2         Domestic  8/10/2001   cpierce@pokéacademy.edu
-#> 3         Domestic   3/6/1993  hpatrick@pokéacademy.edu
-#> 4         Domestic   6/9/1994    smason@pokéacademy.edu
-#> 5         Domestic 10/30/2003    mbooth@pokéacademy.edu
-#> 6         Domestic 11/20/2006 jmitchell@pokéacademy.edu
+#> 1         Domestic  6/15/1994    rhardy@pokeacademy.edu
+#> 2         Domestic  8/10/2001   cpierce@pokeacademy.edu
+#> 3         Domestic   3/6/1993  hpatrick@pokeacademy.edu
+#> 4         Domestic   6/9/1994    smason@pokeacademy.edu
+#> 5         Domestic 10/30/2003    mbooth@pokeacademy.edu
+#> 6         Domestic 11/20/2006 jmitchell@pokeacademy.edu
 #> 
 #> $`International.Ent First Year`
 #>    Last_Name First_Name   Student_Type           Hall Room Room_Type
@@ -117,12 +134,12 @@ print(lapply(split_data, head))
 #> 45       Liu    Brianna Ent First Year  Wailord House  310    Single
 #> 49   Cochran       Luis Ent First Year Clefairy House  303    Double
 #>    Citizenship_DESC       DOB                     Email
-#> 26    International 8/14/1997  kbarrera@pokéacademy.edu
-#> 28    International 6/27/2001  cpollard@pokéacademy.edu
-#> 31    International 9/11/1991     fluna@pokéacademy.edu
-#> 36    International 3/11/2003 emarshall@pokéacademy.edu
-#> 45    International 9/26/1994      bliu@pokéacademy.edu
-#> 49    International  1/7/2004  lcochran@pokéacademy.edu
+#> 26    International 8/14/1997  kbarrera@pokeacademy.edu
+#> 28    International 6/27/2001  cpollard@pokeacademy.edu
+#> 31    International 9/11/1991     fluna@pokeacademy.edu
+#> 36    International 3/11/2003 emarshall@pokeacademy.edu
+#> 45    International 9/26/1994      bliu@pokeacademy.edu
+#> 49    International  1/7/2004  lcochran@pokeacademy.edu
 #> 
 #> $`Domestic.Ent Transfer`
 #>    Last_Name First_Name Student_Type          Hall Room Room_Type
@@ -133,12 +150,12 @@ print(lapply(split_data, head))
 #> 65    Forbes      Aliya Ent Transfer  Raichu House  502    Double
 #> 67    Hudson    Maranda Ent Transfer  Regice House  108    Single
 #>    Citizenship_DESC        DOB                      Email
-#> 16         Domestic  2/24/2004    ggraves@pokéacademy.edu
-#> 20         Domestic  6/25/1991 jhendricks@pokéacademy.edu
-#> 50         Domestic  1/25/1991   lgilmore@pokéacademy.edu
-#> 64         Domestic 11/29/2006   dlindsey@pokéacademy.edu
-#> 65         Domestic  7/24/1996    aforbes@pokéacademy.edu
-#> 67         Domestic  9/22/1999    mhudson@pokéacademy.edu
+#> 16         Domestic  2/24/2004    ggraves@pokeacademy.edu
+#> 20         Domestic  6/25/1991 jhendricks@pokeacademy.edu
+#> 50         Domestic  1/25/1991   lgilmore@pokeacademy.edu
+#> 64         Domestic 11/29/2006   dlindsey@pokeacademy.edu
+#> 65         Domestic  7/24/1996    aforbes@pokeacademy.edu
+#> 67         Domestic  9/22/1999    mhudson@pokeacademy.edu
 #> 
 #> $`International.Ent Transfer`
 #>    Last_Name First_Name Student_Type           Hall Room Room_Type
@@ -149,12 +166,12 @@ print(lapply(split_data, head))
 #> 37    Lester     Hayden Ent Transfer  Wailord House  304    Single
 #> 57     Garza    Tiffany Ent Transfer   Zapdos House  302    Single
 #>    Citizenship_DESC        DOB                     Email
-#> 8     International  3/23/2000   libarra@pokéacademy.edu
-#> 18    International  11/3/2006 egallegos@pokéacademy.edu
-#> 21    International  6/25/1992   dkrause@pokéacademy.edu
-#> 22    International 11/23/1993    kgates@pokéacademy.edu
-#> 37    International 12/21/2005   hlester@pokéacademy.edu
-#> 57    International   4/7/2005    tgarza@pokéacademy.edu
+#> 8     International  3/23/2000   libarra@pokeacademy.edu
+#> 18    International  11/3/2006 egallegos@pokeacademy.edu
+#> 21    International  6/25/1992   dkrause@pokeacademy.edu
+#> 22    International 11/23/1993    kgates@pokeacademy.edu
+#> 37    International 12/21/2005   hlester@pokeacademy.edu
+#> 57    International   4/7/2005    tgarza@pokeacademy.edu
 ```
 
 ## Exporting data
