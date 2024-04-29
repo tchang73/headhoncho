@@ -1,7 +1,7 @@
 library(googlesheets4)
 library(tibble)
 tryCatch(googlesheets4::gs4_auth(cache = "../../.secrets", email = "*@smith.edu"),
-         error = function() {
+         error = function(e) {
            gs4_deauth()
          }
 )
