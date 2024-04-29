@@ -1,6 +1,10 @@
 library(googlesheets4)
 library(tibble)
-googlesheets4::gs4_auth(cache = "../../.secrets", email = "*@smith.edu")
+tryCatch(googlesheets4::gs4_auth(cache = "../../.secrets", email = "*@smith.edu"),
+         error = {
+           gs4_deauth()
+         }
+)
 test_that("export_data() writes to google sheets correctly", {
   skip_if(gs4_has_token() == FALSE)
   skip_if_offline()
