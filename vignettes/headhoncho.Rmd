@@ -7,11 +7,23 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
+```{r}
+cat("\n", getwd(), "\n")
+```
+
+
 ```{r, include = FALSE}
+options(gargle_oauth_cache = "../.secrets")
+if (dir.exists("../.secrets")) {
+  googlesheets4::gs4_auth(cache = "../.secrets", email = "*@smith.com")
+  can_authenticate <- TRUE
+} else {
+  can_authenticate <- FALSE
+}
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
-  eval = FALSE
+  eval = can_authenticate
 )
 ```
 
@@ -27,7 +39,7 @@ This article is designed give a brief overview of the functionality of the `xkcd
 This function is the `headhoncho` equivalent to the `googlesheets4::read_sheet()` function. By taking in an identifier of a (private, in your Google Drive account) Google Sheet, this function converts the data into a tibble that can be stroed in your environment and manipulated. This is the reccomended first step, although you are able to skip over it if your data of interest is originally stored in a non-Google-Sheet file. 
 
 ```{r}
-example_data <- googlesheets4::read_sheet("https://docs.google.com/spreadsheets/d/1HO3e_VCqdbyRGbKOgzt57aLLlhVCP7YQGmy411tqGNc/edit#gid=0")
+example_data <- read_google_sheet("https://docs.google.com/spreadsheets/d/1HO3e_VCqdbyRGbKOgzt57aLLlhVCP7YQGmy411tqGNc/edit#gid=0")
 example_data
 #> ✔ Reading from headhoncho package example data.
 #> ✔ Range full_data.
