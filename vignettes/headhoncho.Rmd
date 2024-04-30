@@ -15,7 +15,7 @@ cat("\n", getwd(), "\n")
 ```{r, include = FALSE}
 options(gargle_oauth_cache = "../.secrets")
 if (dir.exists("../.secrets")) {
-  googlesheets4::gs4_auth(cache = "../.secrets", email = "*@smith.com")
+  googlesheets4::gs4_auth(cache = "../.secrets", email = "*@smith.edu")
   can_authenticate <- TRUE
 } else {
   can_authenticate <- FALSE
