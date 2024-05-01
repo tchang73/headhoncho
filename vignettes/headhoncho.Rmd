@@ -67,8 +67,10 @@ example_data_list
 
 ## The `export_data()` function
 
-The `export_data()` function does the opposite of the `read_sheet()` function: it takes a (list of) dataframe(s) in your R environment and exports them to separate Google Sheets. This function will default to creating new Google Sheets to be written, but can take a vector of sheet identifiers if there are specific sheets that you would like to overwrite. 
+The `export_data()` function does the opposite of the `read_sheet()` function: it takes a (list of) dataframe(s) in your R environment and exports them to separate Google Sheets. This function will default to creating new Google Sheets to be written, but can take a vector of sheet identifiers if there are specific sheets that you would like to overwrite. The code below will export each dataframe in the example_data_list object. Since the domestic students are contained in the first list, we have set the naming vector accordingly.
 
-
+```{r, eval = FALSE}
+export_data(example_data_list, sheet_id = "create", names = c("Domestic Students", "International Students"), sheet_num = 1)
+```
 
 
