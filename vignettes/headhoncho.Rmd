@@ -7,6 +7,11 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
+```{r}
+cat("\n", getwd(), "\n")
+```
+
+
 ```{r, include = FALSE}
 options(gargle_oauth_cache = "../.secrets")
 if (dir.exists("../.secrets")) {
@@ -67,10 +72,14 @@ example_data_list
 
 ## The `export_data()` function
 
-The `export_data()` function does the opposite of the `read_sheet()` function: it takes a (list of) dataframe(s) in your R environment and exports them to separate Google Sheets. This function will default to creating new Google Sheets to be written, but can take a vector of sheet identifiers if there are specific sheets that you would like to overwrite. The code below will export each dataframe in the example_data_list object. Since the domestic students are contained in the first list, we have set the naming vector accordingly.
+The `export_data()` function does the opposite of the `read_sheet()` function: it takes a (list of) dataframe(s) in your R environment and exports them to separate Google Sheets. This function will default to creating new Google Sheets to be written, but can take a vector of sheet identifiers if there are specific sheets that you would like to overwrite. 
+
 
 ```{r, eval = FALSE}
-export_data(example_data_list, sheet_id = "create", names = c("Domestic Students", "International Students"), sheet_num = 1)
+#Automatically will create new sheets and start importing data at the first worksheet within them,
+#but that can be overidden if desired Setting the names of these spreadsheets to reflect their
+#contents. Since 'Domestic Students' comes first in the data list made earlier, put that one first.
+export_data(data_list, names = c("Domestic Students", "International Students"))
 ```
 
 
