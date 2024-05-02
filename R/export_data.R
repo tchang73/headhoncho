@@ -42,11 +42,8 @@ export_data <- function(data_list,
                         sheet_id = "create",
                         names = NULL,
                         sheet_num = 1) {
-  # Indicating that we are writing to existing Google sheets.
-  state <- "write"
-  # If the sheet_id indicates "create", changing `state` to indicate creation of new Google sheets
+  # If the sheet_id indicates "create"
   if (sheet_id[1] == "create") {
-    state <- "create"
     # If there are no names, auto-generating names for each Google sheet.
     if (is.null(names)) {
       names <- paste0("Untitled_Sheet_", seq_along(data_list))
