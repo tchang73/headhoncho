@@ -49,15 +49,20 @@ export_data <- function(data_list,
       names <- paste0("Untitled_Sheet_", seq_along(data_list))
     }
     if (length(data_list) != length(names)) {
-      stop(paste("There must be an equal number of data frames and spreadsheet names.
+      stop(
+        paste(
+          "There must be an equal number of data frames and spreadsheet names.
            Instead, there are",
-           length(data_list),
-           "data frames and",
-           length(names),
-           "sheet names"),
-           call. = FALSE)
+          length(data_list),
+          "data frames and",
+          length(names),
+          "sheet names"
+        ),
+        call. = FALSE
+      )
     }
-    sheet_id <- vector(mode = "character", length = length(data_list))
+    sheet_id <-
+      vector(mode = "character", length = length(data_list))
     for (i in seq_along(data_list)) {
       ss <- googlesheets4::gs4_create(name = names[i])
       sheet_id[i] <- ss
