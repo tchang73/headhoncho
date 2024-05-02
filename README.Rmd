@@ -26,7 +26,8 @@ The headhoncho package aims to help split one Google sheet into multiple Google 
 You can install the development version of headhoncho from [GitHub](https://github.com/) with:
 
 ```{r, eval = FALSE}
-# install.packages("devtools")
+#If devtools is not already installed, run:
+#install.packages("devtools")
 devtools::install_github("tchang73/headhoncho")
 ```
 
@@ -68,7 +69,12 @@ The `split_data` function splits a data frame into a list of smaller data frames
 ```{r example}
 head(pokeacademy_data)
 
-split_data <- split_sheet(pokeacademy_data, pokeacademy_data$Citizenship_DESC, pokeacademy_data$Student_Type)
+split_data <-
+  split_sheet(
+    pokeacademy_data,
+    pokeacademy_data$Citizenship_DESC,
+    pokeacademy_data$Student_Type
+  )
 
 print(lapply(split_data, head))
 ```

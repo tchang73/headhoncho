@@ -39,7 +39,7 @@ This article is designed give a brief overview of the functionality of the `xkcd
 This function is the `headhoncho` equivalent to the `googlesheets4::read_sheet()` function. By taking in an identifier of a (private, in your Google Drive account) Google Sheet, this function converts the data into a tibble that can be stroed in your environment and manipulated. This is the reccomended first step, although you are able to skip over it if your data of interest is originally stored in a non-Google-Sheet file. 
 
 ```{r}
-example_data <- read_google_sheet("https://docs.google.com/spreadsheets/d/1HO3e_VCqdbyRGbKOgzt57aLLlhVCP7YQGmy411tqGNc/edit#gid=0")
+example_data <- read_google_sheet("1HO3e_VCqdbyRGbKOgzt57aLLlhVCP7YQGmy411tqGNc")
 example_data
 ```
 
@@ -49,9 +49,11 @@ example_data
 This function is the main functionality of the package. It takes in a dataframe object (typically a tibble that has been `read_google_sheet()`) as well as the columns on which to group and split. It outputs a list of dataframes, where each dataframe contains a single group of the splitting variables. Columns should be specified using the `data_frame$variable` format, and as many columns as desired can be specified as individual arguments (no need to group them manually into any sort of list to pass to the function!). After creating the list of dataframes, this function automatically discards any dataframes for which there are 0 observations, but this behavior can be overridden by specifying `keep = TRUE`. For example, here is a dataframe in which observations will be discarded:
 
 ```{r}
-df <- data.frame (A = c("a", "a", "b", "b"),
-                  B = c(1, 2, 2, 3),
-                  C = c(TRUE, TRUE, TRUE, FALSE))
+df <- data.frame(
+  A = c("a", "a", "b", "b"),
+  B = c(1, 2, 2, 3),
+  C = c(TRUE, TRUE, TRUE, FALSE)
+)
 
 ## Don't keep data frames with no observations (ex: group formed by df$A == "a" and df$B == 3)
 data_list <- split_sheet(df, df$A, df$B)

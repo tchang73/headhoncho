@@ -1,10 +1,15 @@
 #' @title A function to read a Google Sheet by ID
 #'
-#' @description This function accesses a Google Sheet using the provided ID, and reads its contents. It requires the user to have appropriate permissions to view the Google Sheet.
+#' @description This function accesses a Google Sheet using the provided ID, and reads its contents.
+#'   It requires the user to have appropriate permissions to view the Google Sheet.
 
-#' @param sheet_url A string containing the id of the Google Sheet to be accessed. The ID should be in the standard format provided in the Google Sheets browser address bar. It can be provided via a URL, or anything else accepted by the [`read_sheet`] function.
+#' @param sheet_url A string containing the id of the Google Sheet to be accessed. The ID should be
+#'   in the standard format provided in the Google Sheets browser address bar. It can be provided
+#'   via a URL, or anything else accepted by the [`read_sheet`] function.
 #'
-#' @return Returns a tibble containing the contents of the Google Sheet if successful. If the function encounters an error while accessing or reading the sheet, it returns NULL and prints an error message to the console.
+#' @return Returns a tibble containing the contents of the Google Sheet if successful. If the
+#'   function encounters an error while accessing or reading the sheet, it returns NULL and prints
+#'   an error message to the console.
 #' @importFrom googlesheets4 read_sheet gs4_auth
 #'
 #' @examples
