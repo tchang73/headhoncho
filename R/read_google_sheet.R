@@ -17,12 +17,12 @@ read_google_sheet <- function(sheet_url) {
   # Try to access the Google Sheet
   sheet <- tryCatch({
     # Access the sheet using its URL
-    googlesheets4::read_sheet(ss = sheet_url)},
-    error = function(e) {
-      cat("Error accessing Google Sheet: ", e$message, "\n")
-      NULL  # Return NULL on error
-    }
-  )
+    googlesheets4::read_sheet(ss = sheet_url)
+  },
+  error = function(e) {
+    cat("Error accessing Google Sheet: ", e$message, "\n")
+    NULL  # Return NULL on error
+  })
 
   # If the sheet is accessed successfully, read its contents
   if (!is.null(sheet)) {
@@ -33,4 +33,3 @@ read_google_sheet <- function(sheet_url) {
     cat("Failed to access Google Sheet. Check the URL or authentication.\n")
   }
 }
-

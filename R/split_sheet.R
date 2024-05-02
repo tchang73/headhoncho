@@ -48,10 +48,14 @@ split_sheet <- function(sheet, ..., keep = FALSE) {
     combo <- sapply(new_data, nrow) > 0
     # If there are empty data frames, warning the user that they have been removed.
     if (FALSE %in% combo) {
-      warning(paste("Combination",
-                    names(new_data[-combo]),
-                    "has no observations. Empty data frame has been removed.\n"),
-              call. = FALSE)
+      warning(
+        paste(
+          "Combination",
+          names(new_data[-combo]),
+          "has no observations. Empty data frame has been removed.\n"
+        ),
+        call. = FALSE
+      )
     }
     # Subsetting the data
     new_data <- new_data[sapply(new_data, nrow) > 0]

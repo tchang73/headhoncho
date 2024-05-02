@@ -53,13 +53,17 @@ export_data <- function(data_list,
     }
     # If there is not an equal amount of data frames and names, throwing an error
     if (length(data_list) != length(names)) {
-      stop(paste("There must be an equal number of data frames and spreadsheet names.
+      stop(
+        paste(
+          "There must be an equal number of data frames and spreadsheet names.
            Instead, there are",
-           length(data_list),
-           "data frames and",
-           length(names),
-           "sheet names"),
-           call. = FALSE)
+          length(data_list),
+          "data frames and",
+          length(names),
+          "sheet names"
+        ),
+        call. = FALSE
+      )
     }
     # Creating a sheet id vector to store new sheet ids. Generating a sheet id for each data frame.
     sheet_id <- vector(mode = "character", length = length(data_list))
